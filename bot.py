@@ -200,6 +200,9 @@ def main():
         print("⚠️ 시작 메시지 전송 실패 (네트워크/토큰 확인). 계속 폴링은 시도합니다.", flush=True)
 
     offset = None
+    failure_count = 0     # getUpdates 연속 실패 횟수
+    max_backoff = 60      # 지수 백오프 상한(초)
+    log_throttle = 0      # 로그 도배 방지용 카운터
     while True:
         # 1) 명령 수신 (롱폴링)
         params = {"timeout": POLL_TIMEOUT}
@@ -207,6 +210,11 @@ def main():
             params["offset"] = offset
         res = _api("getUpdates", params, timeout=POLL_TIMEOUT + 10)
         if res and res.get("ok"):
+            # 정상 복구 시 실패 카운터 초기화
+            if failure_count > 0:
+                print(f"getUpdates 정상 복구 (실패 {failure_count}회 후)", flush=True)
+            failure_count = 0
+            log_throttle = 0
             for upd in res["result"]:
                 offset = upd["update_id"] + 1
                 msg = upd.get("message") or {}
@@ -223,6 +231,17 @@ def main():
                     handle_command(text, chat_id)
                 else:
                     send(chat_id, "명령은 / 로 시작해요. /help")
+        else:
+            # getUpdates 실패(네트워크 장애 등) → 지수 백오프로 재시도 간격을 늘린다.
+            #  1초 → 2초 → 4초 → 8초 → … → 60초 상한
+            failure_count += 1
+            backoff = min(2 ** (failure_count - 1), max_backoff)
+            # 로그 도배 방지: 첫 실패와 매 10회마다만 출력
+            log_throttle += 1
+            if failure_count == 1 or log_throttle % 10 == 0:
+                print(f"[getUpdates 실패 {failure_count}회] {backoff}초 대기 후 재시도...", flush=True)
+            time.sleep(backoff)
+            continue
 
         # 2) 매일 정해진 시간 도달 시 자동 실행.
         #    == 대신 >= : 롱폴링(최대 50초)으로 정확한 1분을 놓쳐도 그 시각 이후 실행됨.
