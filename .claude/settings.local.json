@@ -22,7 +22,17 @@
       "Bash(grep -E \"bin/codex$|codex$\")",
       "Bash(grep -v -E \"\\\\.\\(png|json|html|js\\)$\")",
       "Bash(/Applications/Codex.app/Contents/Resources/codex --version)",
-      "Bash(/Applications/Codex.app/Contents/Resources/codex exec *)"
+      "Bash(/Applications/Codex.app/Contents/Resources/codex exec *)",
+      "Bash(rm bombam_synology.zip)",
+      "Bash(zip -r bombam_synology.zip ridi_collector.py 4_매일알림.py bot.py Dockerfile docker-compose.yml entrypoint.sh account.json telegram.json settings.json requirements.txt notify.py)",
+      "Bash(/Applications/Codex.app/Contents/MacOS/codex --version)",
+      "Read(//Applications/Codex.app/Contents/MacOS/**)",
+      "mcp__visualize__read_me",
+      "mcp__visualize__show_widget",
+      "Bash(python3 -c \"import json,sys; d=json.load\\(sys.stdin\\); print\\({k:\\('***' if 'key' in k.lower\\(\\) or 'token' in k.lower\\(\\) else v\\) for k,v in d.items\\(\\)}\\)\")",
+      "Bash(echo \"EXIT=$?\")",
+      "Bash(git checkout *)",
+      "Bash(git add *)"
     ]
   }
 }

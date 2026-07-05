@@ -320,7 +320,20 @@ def _try_login(page):
 
 
 def _open_book_and_scroll(page, url):
-    page.goto(url, wait_until="domcontentloaded", timeout=60000)
+    # 작품 페이지 접속: page.goto 타임아웃 시 1회 재시도 (첫 시도 30초, 실패 시 10초 대기 후 30초)
+    max_attempts = 2
+    for attempt in range(1, max_attempts + 1):
+        try:
+            page.goto(url, wait_until="domcontentloaded", timeout=30000)
+            if attempt > 1:
+                print("  → 재시도로 성공")
+            break
+        except Exception as e:
+            print(f"  [시도 {attempt}/{max_attempts}] Page.goto 실패: {str(e)[:50]}")
+            if attempt < max_attempts:
+                time.sleep(10)   # 재시도 전 10초 대기
+            else:
+                raise            # 마지막 시도도 실패하면 예외 발생
     _wait_cloudflare(page)
     if "adult-bridge" in page.url:
         try:
@@ -695,12 +708,78 @@ def build_latest_excel(results, out_file):
 #  최근 N일(기본 30일) 댓글만 수집
 # ════════════════════════════════════════════════════════════
 
+def _check_network_connectivity(retries=2, retry_interval=20):
+    """리디북스 및 텔레그램 서버 도달 가능 여부 확인 (사전 진단).
+       네트워크 장애 중 Chromium 을 띄워 2GB NAS 메모리를 낭비하지 않도록 사전 점검.
+
+       Args:
+           retries: 재시도 횟수
+           retry_interval: 재시도 간격 (초)
+
+       Returns:
+           접속 가능하면 True, 모두 실패하면 False
+    """
+    import urllib.request
+    import urllib.error
+
+    targets = [
+        ("https://ridibooks.com", 10),
+        ("https://api.telegram.org", 10),
+    ]
+
+    for url, timeout in targets:
+        success = False
+        for attempt in range(1, retries + 1):
+            try:
+                req = urllib.request.Request(url, method='HEAD')
+                with urllib.request.urlopen(req, timeout=timeout) as resp:
+                    if resp.code in (200, 403, 404):   # 403/404 도 서버 응답이므로 OK
+                        success = True
+                        break
+            except urllib.error.URLError as e:
+                if "timed out" in str(e).lower():
+                    print(f"  {url} 시도 {attempt}/{retries} 타임아웃 (대기 {retry_interval}초)")
+                    if attempt < retries:
+                        time.sleep(retry_interval)
+                else:
+                    # 타임아웃이 아닌 다른 오류(403 등)는 서버가 응답한 것 → 통과
+                    success = True
+                    break
+
+        if not success:
+            print(f"  {url} 모두 실패 → 네트워크 장애로 판단")
+            return False
+
+    print("  사전 연결 점검 통과")
+    return True
+
+
 def gather_recent(days):
     """오늘 기준 N일 내 댓글 행 리스트를 수집해 최신순으로 반환 (엑셀 생성 안 함).
-       run_recent_days / 4_매일알림.py 가 공통으로 사용."""
+       run_recent_days / 4_매일알림.py 가 공통으로 사용.
+
+       반환값: (rows, cutoff, stats)
+         - rows: 최근 N일 댓글 행 리스트 (최신순)
+         - cutoff: 기준일 (YYYY.MM.DD)
+         - stats: {
+             "total": 시도한 작품 수,
+             "succeeded": 성공한 작품 수,
+             "failed": 타임아웃/예외 작품 수,
+             "aborted": 조기 중단 여부 (bool)
+           }
+    """
     from datetime import datetime, timedelta
     cutoff = (datetime.now() - timedelta(days=days)).strftime("%Y.%m.%d")
     print(f"[최근 {days}일 댓글] 기준일: {cutoff} 이후")
+
+    stats = {"total": 0, "succeeded": 0, "failed": 0, "aborted": False}
+
+    # [선택] 사전 연결 점검 — 리디북스 서버 도달 불가 시 브라우저를 아예 띄우지 않음
+    if not _check_network_connectivity():
+        print("  리디북스 서버 도달 불가 → 브라우저 시작 안 함")
+        stats["failed"] = 1
+        stats["aborted"] = True
+        return [], cutoff, stats
 
     with sync_playwright() as p:
         b = _new_browser(p)
@@ -709,7 +788,9 @@ def gather_recent(days):
         works = _load_or_collect_works(page, tag="최근댓글")
 
         rows = []
+        failed_count = 0   # 연속 실패 카운터
         for i, w in enumerate(works, 1):
+            stats["total"] += 1
             title, url = w["title"], w["url"]
             try:
                 # 최근 댓글이 누락되지 않도록 전체 댓글을 받아 날짜로 거른다
@@ -722,13 +803,22 @@ def gather_recent(days):
                                  "date": r.get("date", ""), "user": r.get("user", ""),
                                  "rating": r.get("rating"), "content": r.get("content", "")})
                 print(f"[{i:2d}/{len(works)}] {title[:24]:24s} | 최근 {days}일 댓글 {len(recent):3d}개")
+                stats["succeeded"] += 1
+                failed_count = 0   # 성공하면 연속 실패 카운터 초기화
             except Exception as e:
                 print(f"[{i:2d}/{len(works)}] {title[:24]:24s} | ❌ {str(e)[:40]}")
+                failed_count += 1
+                stats["failed"] += 1
+                # 연속 4개 작품 실패 시 조기 중단 (네트워크 장애 추정 → 남은 작품 낭비 방지)
+                if failed_count >= 4:
+                    print(f"  연속 {failed_count}개 작품 실패 → 조기 중단")
+                    stats["aborted"] = True
+                    break
             time.sleep(PER_WORK_DELAY)
         b.close()
 
     rows.sort(key=lambda r: r.get("date", ""), reverse=True)   # 최신 댓글 순
-    return rows, cutoff
+    return rows, cutoff, stats
 
 
 def format_notify_message(rows, days):
@@ -756,7 +846,7 @@ def format_notify_message(rows, days):
 
 def run_recent_days(days=RECENT_DAYS):
     """최근 N일 동안 달린 댓글만 모아 최신순으로 엑셀 생성."""
-    rows, cutoff = gather_recent(days)   # 이미 최신순 정렬됨
+    rows, cutoff, _stats = gather_recent(days)   # 이미 최신순 정렬됨
     json.dump(rows, open(RECENT_JSON, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
     build_recent_excel(rows, RECENT_EXCEL, days, cutoff)
     print(f"\n✅ 최근 {days}일 댓글 수집 완료: 총 {len(rows)}개")
