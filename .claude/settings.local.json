@@ -32,7 +32,19 @@
       "Bash(python3 -c \"import json,sys; d=json.load\\(sys.stdin\\); print\\({k:\\('***' if 'key' in k.lower\\(\\) or 'token' in k.lower\\(\\) else v\\) for k,v in d.items\\(\\)}\\)\")",
       "Bash(echo \"EXIT=$?\")",
       "Bash(git checkout *)",
-      "Bash(git add *)"
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)",
+      "Bash(git push *)",
+      "Bash(gh pr create --base main --head fix/network-timeout-resilience --title '네트워크 회선 장애 시 피해 최소화 \\(수집 조기 중단·재시도·백오프\\)' --body ' *)",
+      "Read(//usr/local/bin/**)",
+      "Bash(brew list *)",
+      "Bash(touch /usr/local/bin/.write_test)",
+      "Bash(rm -f /usr/local/bin/.write_test)",
+      "Bash(env)",
+      "Bash(unzip -q -o gh.zip)",
+      "Bash(cp /private/tmp/claude-501/-Users-hyundeok-Downloads--------------------3/b510d3c4-2fa3-48ee-a380-d644a53b120b/scratchpad/gh_2.96.0_macOS_arm64/bin/gh ~/bin/gh)",
+      "Bash(chmod +x ~/bin/gh)",
+      "Bash(~/bin/gh --version)"
     ]
   }
 }
