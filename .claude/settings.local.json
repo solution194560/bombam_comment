@@ -1,0 +1,28 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(docker restart *)",
+      "Bash(docker stop *)",
+      "Bash(docker rm *)",
+      "Bash(rm -f local_test/profile/Singleton*)",
+      "Bash(docker build *)",
+      "Bash(docker run *)",
+      "Bash(python3 -c ' *)",
+      "Bash(rm -f bombam_synology.zip)",
+      "Bash(zip -q bombam_synology.zip ridi_collector.py notify.py bot.py entrypoint.sh 1_전체수집.py 2_작품별_최신댓글.py 3_최근30일_댓글.py 4_매일알림.py account.json account.sample.json telegram.json telegram.sample.json settings.json 봄밤_작품목록.json requirements.txt Dockerfile docker-compose.yml .dockerignore setup_ubuntu.sh README_컨테이너.md README_Synology.md README_Synology_초보가이드.md)",
+      "Bash(unzip -l bombam_synology.zip)",
+      "Bash(unzip -p bombam_synology.zip bot.py)",
+      "Bash(unzip -p bombam_synology.zip 4_매일알림.py)",
+      "Bash(codex --version)",
+      "Read(//Users/hyundeok/.codex/**)",
+      "Read(//opt/homebrew/**)",
+      "Bash(npm ls *)",
+      "Bash(ls ~/.nvm/versions/node/*/bin 2>/dev/null | grep -i codex; ls /usr/local/bin 2>/dev/null | grep -i codex; find ~ -maxdepth 4 -name \"codex\" -type f 2>/dev/null | head -5; echo \"---\"; cat ~/.zshrc 2>/dev/null | grep -i -E \"codex|PATH\" | head -10)",
+      "Bash(mdfind -name codex)",
+      "Bash(grep -E \"bin/codex$|codex$\")",
+      "Bash(grep -v -E \"\\\\.\\(png|json|html|js\\)$\")",
+      "Bash(/Applications/Codex.app/Contents/Resources/codex --version)",
+      "Bash(/Applications/Codex.app/Contents/Resources/codex exec *)"
+    ]
+  }
+}

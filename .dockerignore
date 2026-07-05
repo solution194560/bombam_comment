@@ -1,0 +1,19 @@
+# 빌드에 불필요한 파일 제외 (이미지 경량화)
+.DS_Store
+page_dump.html
+debug*.py
+explore_dom.py
+scrape_all_reviews.py
+collect_with_tools.py
+extract_details.py
+create_final_excel.py
+generate_complete_excel.py
+build_final_excel.py
+final_data*.json
+reviews_full.json
+works_to_collect.json
+*.xlsx
+.browser_data_dir/
+__pycache__/
+*.pyc
+README_컨테이너.md

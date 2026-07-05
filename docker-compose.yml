@@ -1,0 +1,29 @@
+# Synology Container Manager 용 (DSM 7.2+ : 프로젝트로 등록)
+# 프로젝트 경로 예: /volume1/docker/bombam  (이 폴더에 소스 전체를 넣으세요)
+services:
+  bombam:
+    build: .
+    image: bombam:latest
+    container_name: bombam
+    # 저사양/컨테이너에서 Chromium 안정화 (Container Manager는 --shm-size GUI 미지원 → 여기서 지정)
+    shm_size: "1gb"
+    environment:
+      # ⚠️ 반드시 HEADLESS=0! entrypoint 가 띄운 Xvfb(:99) 가상화면에 크롬을 '진짜 창'으로 띄워야
+      #    서버(NAS) IP 에서도 Cloudflare 를 통과함. HEADLESS=1(창 없음)로 두면 봇으로 감지돼 로그인 실패.
+      - HEADLESS=0
+      - BROWSER_PROFILE=/app/.browser_data_dir
+      # 메모리 부족 컨테이너 대비 (선택)
+      - PYTHONUNBUFFERED=1
+    # ⚠️ 단일 '파일' 마운트 금지! (호스트에 파일이 없으면 Docker가 빈 폴더를 만들어 컨테이너 시작 실패)
+    #    account.json / telegram.json / settings.json 은 이미지에 복사돼 들어가므로 마운트하지 않음.
+    #    '폴더'만 마운트한다.
+    volumes:
+      # 로그인 쿠키: 맥의 ~/.browser_data_dir 내용을 이 폴더에 미리 복사
+      - /volume1/docker/bombam/profile:/app/.browser_data_dir
+      # 결과 엑셀/JSON + settings.json(봇이 수정) 이 NAS 폴더에 보존되도록
+      - /volume1/docker/bombam/work:/app/out
+    # 봇이 24시간 상주 → 재부팅/오류 시 자동 재시작
+    restart: unless-stopped
+    # ⚠️ mem_limit 는 두지 않음.
+    #    2GB 모델에서 Chromium 순간 사용량이 상한을 넘으면 OOM 강제종료(재시작 반복)됨.
+    #    제한이 꼭 필요하면 swap 충분히 확보 후 mem_limit: 1800m 정도로만.

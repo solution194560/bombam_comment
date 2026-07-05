@@ -1,0 +1,23 @@
+# 민감 정보 (로그인/토큰)
+account.json
+telegram.json
+profile_cookies.zip
+
+# 배포용 압축본 (위 민감파일 포함될 수 있음, 매번 재생성됨)
+bombam_synology.zip
+
+# 실행 중 생성/변경되는 설정·결과물
+settings.json
+local_test/
+봄밤_작품_전체댓글.xlsx
+봄밤_작품목록.json
+봄밤_작품별_최신댓글.json
+봄밤_작품별_최신댓글.xlsx
+봄밤_전체댓글.json
+
+# Python
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
