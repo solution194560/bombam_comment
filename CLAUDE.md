@@ -18,6 +18,27 @@ Playwright로 스크래핑해서, 매일 정해진 시각에 최근 N일 새 댓
 사용자는 시놀로지/Docker/개발도구 경험이 거의 없는 초보자. 안내 시 메뉴명·클릭 순서까지
 구체적으로 설명할 것. SSH가 막혀 있어 GUI(File Station + Container Manager)로만 작업 가능.
 
+## 코딩 행동 수칙
+
+- **최소 구현** — 요청 범위 밖 기능·추상화·설정 옵션을 만들지 않는다. 2GB RAM NAS다.
+- **수술적 수정** — 요청과 무관한 인접 코드·주석·포맷을 건드리지 않는다. 내 변경으로
+  생긴 고아(import 등)만 정리한다.
+- **에러는 원문으로** — 로그·스택트레이스 원문을 확인한 뒤 수정한다. 키워드 추측 금지.
+- **커밋 제안** — 한 문장으로 설명되는 논리 단위가 완성되면 커밋을 제안한다(임의 커밋 금지).
+- **한국어 출력 규칙** — 문장을 콜론(:)으로 끝내지 않는다. 새 소스 파일 첫 줄에는
+  역할을 설명하는 한국어 주석 한 줄을 단다(설정 파일 제외).
+
+## 개발 파이프라인 (다중 모델)
+
+구조적 변경은 슬래시 커맨드로 자동화된 파이프라인을 쓴다(에이전트 정의는 `.claude/agents/`).
+- **`/dev-pipeline <요구사항>`** — 설계(Fable)→검토(Codex)→최종설계(Fable)→구현(Opus)→테스트(Codex)→판정(Fable).
+  - **경량 모드**(파일 1~2개·스키마 변경 없음): 검토·최종설계 생략, `01_설계.md`를 스펙으로 구현.
+  - **정식 모드**(구조/다중 파일/스키마 변경): 전 단계 수행.
+  - 판정은 항상 `pipeline-judge`(Fable) 고정 — 세션 모델이 직접 판정하지 않음.
+  - 구현 직전 사용자 확인 게이트는 두 모드 모두 필수(위 "작업 전 리뷰" 규칙).
+- **`/fix-error`** — 분석(Fable)→사용자 확인→구현(Opus)→테스트(Codex). NAS/로컬 에러 공용.
+- 산출물은 `docs/설계/YYYYMMDD_<슬러그>/`에 `01_설계.md`~`05_에러분석.md`로 저장.
+
 ## 핵심 파일
 
 | 파일 | 역할 |
@@ -25,12 +46,12 @@ Playwright로 스크래핑해서, 매일 정해진 시각에 최근 N일 새 댓
 | `ridi_collector.py` | 수집 엔진 — 로그인, Cloudflare 대기, 스크래핑(댓글+평점), 엑셀 생성, 설정 로드 |
 | `bot.py` | 24시간 상주 텔레그램 봇. 명령: `/status /days /time /empty /author /run /help` |
 | `notify.py` | 텔레그램 전송 (urllib만 사용). `TELEGRAM_CHAT_ID` 환경변수가 telegram.json보다 우선 |
-| `settings.json` | author/daily_time/notify_days/notify_when_empty/last_run_date — 봇이 직접 수정 |
+| `settings.json` | author/daily_time/notify_days/notify_when_empty/last_run_date/retry_at/subscribers — 봇이 직접 수정 |
 | `account.json` | 리디북스 로그인 계정 (id: solution11) |
 | `telegram.json` | 텔레그램 봇 토큰 + chat_id(276954538, 소유자) |
 | `entrypoint.sh` | 컨테이너 시작 — Xvfb(:99) 직접 구동 후 봇 실행 (`xvfb-run` 래퍼 금지) |
 | `Dockerfile` / `docker-compose.yml` | python:3.12-slim, TZ=Asia/Seoul, **HEADLESS=0 필수** |
-| `bombam_synology.zip` | NAS 업로드용 배포 묶음 (22개 파일, 수정 후 매번 재생성) |
+| `bombam_synology.zip` | NAS 업로드용 배포 묶음 (수정 후 매번 재생성) |
 | `local_test/profile`, `local_test/work` | 로컬 Docker 테스트용 볼륨 마운트 폴더 |
 
 ## 알고 있어야 할 함정들 (재발 방지)
@@ -54,12 +75,17 @@ Playwright로 스크래핑해서, 매일 정해진 시각에 최근 N일 새 댓
 8. **매일 정기 자동 알림 로직**: 자동 실행만 `last_run_date`를 기록(수동 `/run`은 기록 안 함,
    테스트가 정기 알림을 막지 않도록). 시각 비교는 `==`가 아니라 `>=`(롱폴링으로 정확한 1분을
    놓쳐도 그 이후 실행됨).
-9. **`/run` 결과 알림은 누른 사람에게만 간다.** `bot.py`의 `run_daily_job`이 subprocess 실행
-   시 `TELEGRAM_CHAT_ID` 환경변수로 `triggered_by`를 넘김(notify.py가 이를 telegram.json보다
-   우선 사용). 매일 자동 알림(`is_auto`)만 소유자에게 감.
+9. **알림 수신자 규칙.** `/run`(수동) 결과는 누른 사람 **한 명**에게만 간다(`bot.py`가
+   `TELEGRAM_CHAT_ID`로 `triggered_by`를 넘기고 notify.py가 telegram.json보다 우선 사용).
+   매일 자동 알림(`is_auto`)은 `settings.json`의 `subscribers` **전원 + 소유자**에게 간다.
+   subscribers는 봇에게 말 건 사람이 자동 등록되며 소유자는 항상 포함.
 10. **구매자 평점(별점) 판별은 클래스명이 아니라 색으로.** 리뷰 li 안 `viewBox="0 0 48 48"`
     svg 중 색이 회색(`rgb(230,230,230)`)이 아니면 채워진 별. 클래스명은 CSS-in-JS 해시라
     매 빌드마다 바뀌므로 절대 의존하지 말 것.
+11. **네트워크 장애·조기 중단 복원력.** `getUpdates` 실패 시 봇은 지수 백오프로 재시도
+    (1→2→4→…→60초 상한, 로그는 첫 실패+10회마다만). 수집이 조기 중단되면 `settings.json`에
+    `retry_at`(재시도 시각)을 기록하고, 그 시각이 지나면 봇이 자동으로 한 번 재수집한다
+    (재시도는 `is_auto=False` — 성공 시 정상 알림, 실패 시 실패 알림).
 
 ## 로컬 테스트 실행법
 
