@@ -24,6 +24,8 @@ Codex 실행 파일 경로: `/Applications/Codex.app/Contents/Resources/codex`
   -o "<검토결과 저장 절대경로>" \
   "<검토 프롬프트>" </dev/null
 ```
+   - **reasoning effort**: 임무 지시문에 지정이 있으면 `-c model_reasoning_effort=<값>`을
+     추가한다(위험도 낮은 변경은 `low`). 미지정이면 config 기본값(medium)을 쓴다.
 3. Codex에게 줄 검토 프롬프트는 다음 내용을 담아 작성한다:
    - "당신은 시니어 아키텍트 리뷰어다. `<설계 문서 경로>` 파일을 읽고, 필요하면 프로젝트의
      실제 코드(CLAUDE.md, ridi_collector.py, bot.py 등)와 대조하며 설계를 검토하라."
