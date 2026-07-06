@@ -26,7 +26,7 @@ import threading
 import subprocess
 import urllib.parse
 import urllib.request
-from datetime import datetime
+from datetime import datetime, timedelta
 
 import ridi_collector as rc
 from notify import _load_telegram
@@ -204,6 +204,23 @@ def main():
     max_backoff = 60      # 지수 백오프 상한(초)
     log_throttle = 0      # 로그 도배 방지용 카운터
     while True:
+        # [재시도 확인] settings.json의 retry_at이 지났으면 자동 실행
+        try:
+            s = rc.load_settings()
+            retry_at_str = s.get("retry_at", "")
+            if retry_at_str:
+                retry_at = datetime.strptime(retry_at_str, "%Y-%m-%d %H:%M:%S")
+                now = datetime.now()
+                if now >= retry_at and not _job_running.is_set():
+                    print(f"[자동 재시도] 이전 조기 중단 후 {(now - retry_at).total_seconds():.0f}초 경과, 다시 수집 실행", flush=True)
+                    # 재시도는 자동(is_auto=True) 아님 → 실패 알림만 전송되고 success 알림은 정상 흐름
+                    run_daily_job(is_auto=False)
+                    # 재시도 완료 후 플래그 제거 (다시 설정되지 않는 한 재실행 안 함)
+                    s.pop("retry_at", None)
+                    rc.save_settings(s)
+        except Exception as e:
+            print(f"  [재시도 확인 오류] {str(e)[:60]}", flush=True)
+
         # 1) 명령 수신 (롱폴링)
         params = {"timeout": POLL_TIMEOUT}
         if offset is not None:

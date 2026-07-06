@@ -38,6 +38,7 @@ DEFAULT_SETTINGS = {
     "notify_days":       2,         # 오늘 기준 며칠치 댓글을 알림 대상으로 볼지
     "notify_when_empty": False,     # 새 댓글 없을 때도 보낼지
     "last_run_date":     "",        # 마지막 실행 날짜(봇이 자동 기록)
+    "retry_at":          "",        # 조기 중단 후 자동 재시도 시간 (bot.py가 설정)
     "subscribers":       [],        # 매일 자동 알림 수신자 chat_id 목록(봇에게 말 건 사람 자동 등록)
 }
 

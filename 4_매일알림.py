@@ -46,6 +46,7 @@ if __name__ == "__main__":
     if (stats["aborted"] and stats["succeeded"] == 0) or \
        (stats["failed"] > 0 and stats["succeeded"] == 0):
         # 전면 실패
+        partial_abort = False
         fail_msg = (f"⚠️ 수집 실패\n\n"
                     f"작품 {stats['total']}개 중 {stats['failed']}개 접속 실패\n"
                     f"(네트워크 문제 추정)\n\n"
@@ -57,6 +58,16 @@ if __name__ == "__main__":
                     f"작품 {stats['total']}개 중 {stats['succeeded']}개만 수집됨\n"
                     f"(네트워크 문제로 추정)\n\n"
                     f"현재까지 수집한 댓글을 이하 전송합니다.")
+
+    # 모든 aborted 상황(전면 실패 + 조기 중단)에 20~30분 뒤 자동 재시도 예약
+    if stats["aborted"]:
+        from datetime import datetime, timedelta
+        retry_at = (datetime.now() + timedelta(minutes=25)).strftime("%Y-%m-%d %H:%M:%S")
+        s = load_settings()
+        s["retry_at"] = retry_at
+        from ridi_collector import save_settings
+        save_settings(s)
+        print(f"  25분 뒤 자동 재시도 예약: {retry_at}")
 
     if fail_msg:
         recipients = _resolve_recipients()
