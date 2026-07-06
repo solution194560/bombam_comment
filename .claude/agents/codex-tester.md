@@ -26,6 +26,8 @@ Codex 실행 파일 경로: `/Applications/Codex.app/Contents/Resources/codex`
   -o "<테스트결과 저장 절대경로>" \
   "<테스트 프롬프트>" </dev/null
 ```
+   - **reasoning effort**: 임무 지시문에 `reasoning effort=low`(경량 모드) 등 지정이 있으면
+     `codex exec`에 `-c model_reasoning_effort=<값>`을 추가한다. 미지정이면 config 기본값(medium)을 쓴다.
 3. Codex에게 줄 테스트 프롬프트에는 다음을 담는다:
    - "당신은 QA 엔지니어다. `<최종설계 경로>`의 5장 테스트 계획과 프로젝트 CLAUDE.md의
      '로컬 테스트 실행법' 절차를 따라 이번 변경(변경 파일: <목록>)을 검증하라."
