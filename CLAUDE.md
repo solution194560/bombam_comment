@@ -10,7 +10,8 @@ Playwright로 스크래핑해서, 매일 정해진 시각에 최근 N일 새 댓
 1. **작업 전 리뷰** — 무엇을, 왜 바꾸는지 먼저 설명하고 사용자 확인을 받는다.
 2. **로컬 Docker 테스트** — `docker build` + `docker run`으로 실제 컨테이너에서 해당 시나리오를
    통과시킨다. 절대 추측만으로 NAS를 고치려 하지 않는다.
-3. **통과했을 때만** `bombam_synology.zip`을 재생성해 시놀로지 배포로 넘어간다.
+3. **통과했을 때만** `main`에 push하고 NAS에서 `봄밤_배포`를 실행한다(git 반자동 배포,
+   상세는 "시놀로지 배포 절차"). 레거시 zip 방식은 백업 경로.
 
 로컬 검증을 건너뛰고 바로 NAS 배포를 제안하지 않는다. (사용자가 명시적으로 요청한 규칙,
 2026-07-02)
@@ -86,6 +87,10 @@ Playwright로 스크래핑해서, 매일 정해진 시각에 최근 N일 새 댓
     (1→2→4→…→60초 상한, 로그는 첫 실패+10회마다만). 수집이 조기 중단되면 `settings.json`에
     `retry_at`(재시도 시각)을 기록하고, 그 시각이 지나면 봇이 자동으로 한 번 재수집한다
     (재시도는 `is_auto=False` — 성공 시 정상 알림, 실패 시 실패 알림).
+12. **`.dockerignore`는 ASCII만.** 한글 파일명·주석이 들어가면 CLI 빌드(`docker compose`,
+    buildkit)가 `exclude-patterns` 헤더에 비-ASCII를 넣다가 `non-printable ASCII characters`로
+    build context 로드에서 실패한다. Container Manager GUI 빌드는 관대해 통과하지만 NAS
+    git 반자동 배포는 CLI라 터진다. 한글 파일 제외가 필요하면 `README_*.md`처럼 ASCII 글롭 사용.
 
 ## 로컬 테스트 실행법
 
@@ -108,10 +113,26 @@ docker logs -f bombam_test          # 실시간 로그 확인
 
 ## 시놀로지 배포 절차
 
-1. File Station → `docker/bombam` 폴더 → `bombam_synology.zip` 덮어쓰기 업로드 → 압축 풀기(덮어쓰기)
-2. Container Manager → 프로젝트 → `bombam` → **다시 빌드** (설정 변경 시 재시작만으론 반영 안 됨)
-3. 텔레그램 "🤖 봄밤 알림봇 가동 시작!" 메시지 확인
+**git 반자동 배포(현행 표준).** 로컬 검증 후 `main`에 push하면, NAS에서 버튼 하나로 배포한다.
+
+전제(1회 구성 완료됨): NAS `/volume1/docker/bombam`는 GitHub `solution194560/bombam_comment`
+(**비공개**)의 git 작업본이며, 읽기전용 fine-grained 토큰이 `.git/config`에 저장돼 있다(root 전용).
+DSM 작업 스케줄러의 `봄밤_배포`(root 실행) 작업이 `docker run alpine/git`로 `origin/main`을
+`reset --hard`해 받아온 뒤 `docker compose -p bombam ... up -d --build`로 빌드·재시작하고
+`docker image prune -f`로 청소까지 한다(호스트에 git 미설치 → 컨테이너 git 사용). 배포 기준은 `main`.
+
+1. (맥) 코드 수정 → **로컬 Docker 빌드/실행 테스트(필수)** → `main`에 반영(commit+push)
+2. (NAS) 작업 스케줄러 → **`봄밤_배포` → 실행** (git pull + build + up -d + prune)
+3. 텔레그램 "🤖 봄밤 알림봇 가동 시작!" 확인 → `bombam` 컨테이너가 **하나만** `Up`
 4. `/run`으로 실동작 검증, 로그에서 `[브라우저] 실제 창 모드로 실행`(headless 아님) 확인
+
+민감 파일(account.json/telegram.json 등)은 `.gitignore`라 pull이 건드리지 않고 NAS 폴더에 상주한다.
+`봄밤_배포`는 빌드 전 이 파일들의 존재를 확인하고, 없으면 로그인 실패 방지를 위해 중단한다.
+compose 프로젝트명이 폴더명(`bombam`)과 같아 CLI 빌드해도 Container Manager와 같은 스택을 갱신한다
+(중복 컨테이너 안 생김).
+
+**레거시(수동 zip) 방식** — git 경로가 막힐 때의 백업으로만: File Station으로 `bombam_synology.zip`
+덮어쓰기 업로드 → 압축풀기 → Container Manager에서 **다시 빌드**.
 
 당일 자동 알림을 바로 테스트하려면: NAS `docker/bombam/work/settings.json`의
 `last_run_date`를 `""`로 비우고 `/time`으로 몇 분 뒤 시각 설정.
