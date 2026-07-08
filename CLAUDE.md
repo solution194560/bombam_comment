@@ -101,15 +101,18 @@ rm -f local_test/profile/Singleton*                          # 잔여 락 정리
 docker build -t bombam:test .
 docker run -d --name bombam_test --shm-size=1gb \
   -e HEADLESS=0 \
+  --env-file local_test/telegram_test.env \
   -v "$(pwd)/local_test/profile:/app/.browser_data_dir" \
   -v "$(pwd)/local_test/work:/app/out" \
   bombam:test
 docker logs -f bombam_test          # 실시간 로그 확인
 ```
 
-⚠️ **로컬 테스트 컨테이너와 NAS의 bombam 컨테이너는 같은 텔레그램 봇 토큰을 쓴다.** 둘 다
-동시에 폴링하면 `409 Conflict`가 남. 로컬 테스트 전엔 NAS 쪽을, NAS 배포 전엔 로컬 컨테이너를
-반드시 정리할 것.
+**로컬 테스트는 반드시 `--env-file local_test/telegram_test.env`를 붙인다.** 이 파일(git 제외)에
+테스트 전용 봇(`@bombam_publish_STG_bot`)의 `TELEGRAM_BOT_TOKEN`/`TELEGRAM_CHAT_ID`가 들어 있고,
+notify.py가 환경변수를 telegram.json보다 우선하므로 NAS 운영 봇과 폴링이 분리된다
+(`409 Conflict` 없음). env-file 없이 띄우면 이미지에 COPY된 telegram.json의 **운영 봇**으로
+폴링해 NAS와 충돌하니 금지. 테스트 결과 메시지는 테스트 봇 대화방으로 온다.
 
 ## 시놀로지 배포 절차
 
