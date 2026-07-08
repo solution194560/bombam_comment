@@ -91,6 +91,13 @@ Playwright로 스크래핑해서, 매일 정해진 시각에 최근 N일 새 댓
     buildkit)가 `exclude-patterns` 헤더에 비-ASCII를 넣다가 `non-printable ASCII characters`로
     build context 로드에서 실패한다. Container Manager GUI 빌드는 관대해 통과하지만 NAS
     git 반자동 배포는 CLI라 터진다. 한글 파일 제외가 필요하면 `README_*.md`처럼 ASCII 글롭 사용.
+13. **작품목록 캐시는 '개수'만이 아니라 '제목 품질'도 검증해야 한다.** 작가 페이지에는 책 하나당
+    앵커가 여러 개("상세페이지 바로가기" 등 접근성/버튼 텍스트 포함) 있어, 첫 앵커를 무차별
+    채택하면 쓰레기 제목이 book_id를 선점해 캐시로 굳는다(함정 6번의 '품질판' 재발). `WORKS_JS`는
+    나쁜 제목 앵커를 book_id 소비 없이 스킵하고, `_load_or_collect_works`/`collect_work_list`는
+    `_good_title()`로 걸러 자동 정화한다(로드한 오염 캐시는 정상 절반 이상이면 정화 후 재저장,
+    미만이면 재수집). 실패 로그에 "상세페이지 바로가기 | ❌ Page.goto: Timeout"이 보이면 이 오염을
+    의심할 것.
 
 ## 로컬 테스트 실행법
 

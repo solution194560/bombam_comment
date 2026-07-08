@@ -1,0 +1,2168 @@
+2026/07/08 00:06:40 | === bombam bot 컨테이너 시작 ===
+2026/07/08 00:06:40 |   OUTPUT_DIR=/app/out HEADLESS=0 DISPLAY=:99
+2026/07/08 00:06:40 |   현재 컨테이너 시각: 2026-07-08 00:06:40 (한국시간이어야 정상 / 매일 09:30 에 자동 알림)
+2026/07/08 00:06:40 | 🤖 봄밤 알림봇 시작. (Ctrl+C 종료)
+2026/07/08 00:06:43 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 00:06:43 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 00:06:50 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 00:06:58 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 00:07:53 | getUpdates 정상 복구 (실패 3회 후)
+2026/07/08 00:08:03 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 00:08:03 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 00:08:17 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 00:08:39 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 00:09:18 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 00:10:17 | getUpdates 정상 복구 (실패 4회 후)
+2026/07/08 00:10:28 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 00:10:28 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 00:11:20 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 00:11:34 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 00:11:34 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 00:12:25 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 00:12:39 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 00:12:39 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 00:13:31 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 00:13:45 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 00:13:45 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 00:14:37 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 00:14:51 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 00:14:51 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 00:15:42 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 00:15:56 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 00:15:56 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 00:16:48 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 00:17:02 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 00:17:02 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 00:17:54 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 00:18:08 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 00:18:08 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 00:18:59 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 00:19:13 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 00:19:13 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 00:20:05 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 00:20:19 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 00:20:19 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 00:21:11 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 00:21:24 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 00:21:24 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 00:22:16 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 00:22:30 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 00:22:30 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 00:23:22 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 00:23:36 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 00:23:36 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 00:24:27 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 00:24:41 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 00:24:41 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 00:25:33 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 00:25:47 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 00:25:47 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 00:26:39 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 00:26:52 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 00:26:52 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 00:27:44 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 00:27:58 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 00:27:58 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 00:28:50 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 00:29:04 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 00:29:04 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 00:29:56 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 00:30:09 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 00:30:09 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 00:31:08 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 00:31:22 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 00:31:22 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 00:32:14 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 00:32:28 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 00:32:28 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 00:33:20 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 00:33:34 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 00:33:34 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 00:34:25 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 00:34:39 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 00:34:39 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 00:35:31 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 00:35:45 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 00:35:45 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 00:36:37 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 00:36:56 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 00:36:56 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 00:37:48 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 00:38:02 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 00:38:02 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 00:38:54 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 00:39:08 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 00:39:08 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 00:40:00 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 00:40:14 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 00:40:14 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 00:41:06 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 00:41:20 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 00:41:20 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 00:42:12 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 00:42:27 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 00:42:27 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 00:43:21 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 00:43:32 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 00:43:32 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 00:44:24 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 00:44:38 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 00:44:38 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 00:45:29 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 00:45:43 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 00:45:43 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 00:46:35 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 00:46:49 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 00:46:49 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 00:47:41 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 00:47:54 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 00:47:54 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 00:48:46 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 00:49:00 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 00:49:00 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 00:49:56 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 00:50:07 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 00:50:07 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 00:50:59 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 00:51:13 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 00:51:13 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 00:52:04 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 00:52:18 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 00:52:18 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 00:53:10 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 00:53:24 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 00:53:24 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 00:54:16 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 00:54:30 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 00:54:30 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 00:55:21 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 00:56:01 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 00:56:01 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 00:56:52 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 00:57:06 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 00:57:06 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 00:57:58 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 00:58:12 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 00:58:12 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 00:59:03 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 00:59:17 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 00:59:17 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 01:00:09 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 01:00:23 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 01:00:23 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 01:01:15 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 01:01:29 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 01:01:29 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 01:02:20 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 01:02:34 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 01:02:34 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 01:03:26 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 01:03:40 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 01:03:40 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 01:04:32 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 01:04:46 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 01:04:46 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 01:05:37 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 01:05:51 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 01:05:51 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 01:06:43 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 01:06:58 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 01:06:58 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 01:07:50 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 01:08:04 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 01:08:04 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 01:08:56 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 01:09:10 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 01:09:10 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 01:10:05 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 01:10:15 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 01:10:15 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 01:11:07 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 01:11:21 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 01:11:21 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 01:12:13 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 01:12:27 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 01:12:27 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 01:13:19 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 01:13:32 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 01:13:32 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 01:14:38 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 01:14:48 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 01:14:48 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 01:15:40 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 01:15:54 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 01:15:54 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 01:16:46 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 01:16:59 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 01:16:59 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 01:17:51 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 01:18:05 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 01:18:05 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 01:18:57 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 01:19:11 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 01:19:11 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 01:20:02 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 01:21:57 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 01:21:57 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 01:22:49 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 01:23:03 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 01:23:03 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 01:23:55 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 01:24:09 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 01:24:09 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 01:25:01 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 01:25:17 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 01:25:17 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 01:26:09 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 01:26:23 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 01:26:23 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 01:27:15 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 01:27:28 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 01:27:28 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 01:28:20 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 01:28:34 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 01:28:34 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 01:29:26 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 01:29:40 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 01:29:40 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 01:30:31 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 01:30:45 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 01:30:45 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 01:31:37 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 01:31:51 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 01:31:51 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 01:32:43 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 01:32:57 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 01:32:57 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 01:33:48 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 01:34:02 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 01:34:02 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 01:34:54 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 01:35:08 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 01:35:08 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 01:36:00 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 01:36:14 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 01:36:14 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 01:37:05 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 01:37:21 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 01:37:21 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 01:38:13 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 01:38:27 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 01:38:27 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 01:39:19 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 01:39:33 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 01:39:33 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 01:40:25 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 01:41:40 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 01:41:41 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 01:42:32 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 01:42:46 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 01:42:46 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 01:43:38 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 01:43:52 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 01:43:52 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 01:44:44 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 01:45:02 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 01:45:02 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 01:45:54 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 01:46:08 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 01:46:08 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 01:47:00 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 01:47:13 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 01:47:13 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 01:48:05 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 01:48:19 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 01:48:19 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 01:49:11 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 01:49:25 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 01:49:25 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 01:50:17 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 01:50:30 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 01:50:30 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 01:51:22 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 01:51:36 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 01:51:36 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 01:52:28 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 01:52:42 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 01:52:42 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 01:53:34 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 01:53:48 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 01:53:48 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 01:54:39 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 01:54:53 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 01:54:53 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 01:55:45 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 01:55:59 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 01:55:59 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 01:56:51 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 01:57:05 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 01:57:05 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 01:57:57 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 01:58:10 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 01:58:10 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 01:59:02 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 01:59:16 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 01:59:16 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 02:00:09 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 02:00:20 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 02:00:20 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 02:01:12 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 02:01:26 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 02:01:26 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 02:02:18 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 02:02:32 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 02:02:32 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 02:03:23 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 02:03:37 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 02:03:37 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 02:04:29 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 02:04:43 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 02:04:43 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 02:05:35 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 02:05:49 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 02:05:49 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 02:06:40 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 02:06:54 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 02:06:54 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 02:07:46 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 02:08:00 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 02:08:00 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 02:08:52 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 02:09:05 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 02:09:05 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 02:09:57 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 02:10:11 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 02:10:11 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 02:11:03 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 02:11:17 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 02:11:17 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 02:12:09 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 02:12:23 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 02:12:23 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 02:13:14 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 02:13:28 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 02:13:28 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 02:14:20 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 02:14:34 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 02:14:34 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 02:15:26 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 02:15:40 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 02:15:40 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 02:16:32 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 02:16:45 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 02:16:45 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 02:17:37 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 02:17:51 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 02:17:51 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 02:18:43 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 02:18:57 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 02:18:57 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 02:19:48 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 02:20:02 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 02:20:02 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 02:20:54 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 02:21:08 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 02:21:08 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 02:22:00 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 02:22:14 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 02:22:14 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 02:23:05 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 02:23:19 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 02:23:19 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 02:24:11 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 02:24:25 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 02:24:25 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 02:25:16 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 02:25:30 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 02:25:30 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 02:26:22 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 02:26:36 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 02:26:36 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 02:27:28 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 02:27:42 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 02:27:42 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 02:28:33 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 02:28:47 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 02:28:47 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 02:29:39 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 02:29:53 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 02:29:53 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 02:30:45 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 02:30:59 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 02:30:59 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 02:31:51 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 02:32:04 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 02:32:04 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 02:32:56 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 02:33:10 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 02:33:10 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 02:34:02 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 02:34:16 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 02:34:16 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 02:35:08 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 02:35:22 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 02:35:22 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 02:36:14 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 02:37:15 |   [api] getUpdates 오류: <urlopen error _ssl.c:993: The handshake operation timed out>
+2026/07/08 02:37:15 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 02:38:07 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 02:38:18 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 02:38:18 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 02:39:10 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 02:39:23 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 02:39:23 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 02:40:15 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 02:40:29 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 02:40:29 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 02:41:21 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 02:41:35 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 02:41:35 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 02:42:27 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 02:42:41 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 02:42:41 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 02:43:33 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 02:43:47 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 02:43:47 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 02:44:38 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 02:44:52 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 02:44:52 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 02:45:44 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 02:45:58 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 02:45:58 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 02:46:50 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 02:47:04 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 02:47:04 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 02:47:56 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 02:48:09 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 02:48:09 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 02:49:01 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 02:49:15 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 02:49:15 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 02:50:07 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 02:50:21 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 02:50:21 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 02:51:12 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 02:51:26 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 02:51:26 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 02:52:18 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 02:52:32 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 02:52:32 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 02:53:24 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 02:53:38 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 02:53:38 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 02:54:29 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 02:54:43 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 02:54:43 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 02:55:35 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 02:55:49 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 02:55:49 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 02:56:41 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 02:56:54 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 02:56:54 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 02:57:46 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 02:58:00 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 02:58:00 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 02:58:52 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 02:59:06 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 02:59:06 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 02:59:58 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 03:00:11 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 03:00:11 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 03:01:03 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 03:01:17 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 03:01:17 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 03:02:09 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 03:02:23 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 03:02:23 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 03:03:40 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 03:04:57 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 03:04:57 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 03:05:49 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 03:06:03 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 03:06:03 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 03:06:54 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 03:07:08 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 03:07:08 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 03:08:00 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 03:08:14 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 03:08:14 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 03:09:06 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 03:09:22 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 03:09:22 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 03:10:14 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 03:10:27 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 03:10:27 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 03:11:19 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 03:11:33 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 03:11:33 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 03:12:25 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 03:12:39 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 03:12:39 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 03:13:31 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 03:13:44 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 03:13:44 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 03:14:36 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 03:14:56 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 03:14:56 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 03:15:48 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 03:16:02 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 03:16:02 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 03:16:54 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 03:17:08 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 03:17:08 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 03:18:00 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 03:18:13 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 03:18:13 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 03:19:06 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 03:19:21 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 03:19:21 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 03:20:14 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 03:20:27 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 03:20:27 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 03:21:20 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 03:21:33 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 03:21:33 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 03:22:27 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 03:22:42 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 03:22:42 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 03:23:34 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 03:39:07 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 03:39:07 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 03:39:59 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 05:16:52 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 05:16:52 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 05:17:43 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 06:25:32 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 06:25:32 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 06:26:24 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 07:04:37 |   [api] getUpdates 오류: <urlopen error _ssl.c:993: The handshake operation timed out>
+2026/07/08 07:04:37 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 07:05:29 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 07:43:02 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 07:43:02 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 07:43:53 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 08:13:51 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 08:13:52 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 08:14:43 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 08:37:09 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 08:37:09 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 08:38:02 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 08:38:15 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 08:38:15 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 08:39:07 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 08:39:21 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 08:39:21 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 08:40:12 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 08:41:14 |   [api] getUpdates 오류: <urlopen error _ssl.c:993: The handshake operation timed out>
+2026/07/08 08:41:14 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 08:42:05 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 08:42:16 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 08:42:16 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 08:43:08 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 08:43:22 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 08:43:22 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 08:44:14 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 08:44:28 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 08:44:28 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 08:45:25 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 08:45:36 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 08:45:36 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 08:46:28 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 08:46:42 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 08:46:42 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 08:47:35 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 08:47:46 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 08:47:46 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 08:48:38 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 08:48:52 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 08:48:52 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 08:49:44 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 08:49:58 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 08:49:58 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 08:50:49 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 08:51:03 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 08:51:03 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 08:51:55 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 08:52:09 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 08:52:09 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 08:53:01 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 08:53:16 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 08:53:16 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 08:54:08 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 08:54:19 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 08:54:19 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 08:55:10 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 08:55:37 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 08:55:37 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 08:56:38 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 08:56:43 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 08:56:43 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 08:57:38 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 08:57:48 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 08:57:48 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 08:58:40 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 08:58:54 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 08:58:54 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 08:59:46 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 08:59:59 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 08:59:59 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 09:00:51 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 09:01:05 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 09:01:05 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 09:01:57 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 09:02:11 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 09:02:11 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 09:03:03 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 09:03:17 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 09:03:17 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 09:04:08 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 09:04:22 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 09:04:22 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 09:05:14 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 09:05:28 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 09:05:28 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 09:06:20 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 09:06:33 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 09:06:33 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 09:07:25 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 09:09:20 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 09:09:20 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 09:10:11 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 09:10:25 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 09:10:25 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 09:11:17 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 09:11:37 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 09:11:37 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 09:12:39 |   [api] getUpdates 오류: <urlopen error _ssl.c:993: The handshake operation timed out>
+2026/07/08 09:12:47 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 09:12:58 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 09:13:11 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 09:13:37 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 09:14:26 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 09:15:35 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 09:16:41 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 09:17:47 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 09:17:47 | [getUpdates 실패 10회] 60초 대기 후 재시도...
+2026/07/08 09:18:52 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 09:19:58 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 09:21:04 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 09:22:09 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 09:23:15 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 09:24:20 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 09:25:26 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 09:26:32 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 09:27:37 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 09:28:43 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 09:28:43 | [getUpdates 실패 20회] 60초 대기 후 재시도...
+2026/07/08 09:29:49 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 09:30:52 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 09:32:43 | getUpdates 정상 복구 (실패 22회 후)
+2026/07/08 09:32:43 | ⏰ 09:30 도달 → 자동 수집 실행 (현재 09:32)
+2026/07/08 09:32:47 | [최근 60일 댓글] 기준일: 2026.05.09 이후
+2026/07/08 09:32:50 |   사전 연결 점검 통과
+2026/07/08 09:32:51 |   [브라우저] 실제 창 모드로 실행
+2026/07/08 09:33:11 |   [로그인] 기존 세션 사용 (이미 로그인됨)
+2026/07/08 09:33:11 | [최근댓글] 기존 작품목록 31개 사용
+2026/07/08 09:33:41 |   [시도 1/2] Page.goto 실패: Page.goto: Timeout 30000ms exceeded.
+2026/07/08 09:33:41 | Call log:
+2026/07/08 09:33:41 |   -
+2026/07/08 09:34:21 |   [시도 2/2] Page.goto 실패: Page.goto: Timeout 30000ms exceeded.
+2026/07/08 09:34:21 | Call log:
+2026/07/08 09:34:21 |   -
+2026/07/08 09:34:21 | [ 1/31] 상세페이지 바로가기               | ❌ Page.goto: Timeout 30000ms exceeded.
+2026/07/08 09:34:21 | Cal
+2026/07/08 09:34:51 |   [시도 1/2] Page.goto 실패: Page.goto: Timeout 30000ms exceeded.
+2026/07/08 09:34:51 | Call log:
+2026/07/08 09:34:51 |   -
+2026/07/08 09:35:31 |   [시도 2/2] Page.goto 실패: Page.goto: Timeout 30000ms exceeded.
+2026/07/08 09:35:31 | Call log:
+2026/07/08 09:35:31 |   -
+2026/07/08 09:35:31 | [ 2/31] 상세페이지 바로가기               | ❌ Page.goto: Timeout 30000ms exceeded.
+2026/07/08 09:35:31 | Cal
+2026/07/08 09:36:01 |   [시도 1/2] Page.goto 실패: Page.goto: Timeout 30000ms exceeded.
+2026/07/08 09:36:01 | Call log:
+2026/07/08 09:36:01 |   -
+2026/07/08 09:36:41 |   [시도 2/2] Page.goto 실패: Page.goto: Timeout 30000ms exceeded.
+2026/07/08 09:36:41 | Call log:
+2026/07/08 09:36:41 |   -
+2026/07/08 09:36:41 | [ 3/31] 상세페이지 바로가기               | ❌ Page.goto: Timeout 30000ms exceeded.
+2026/07/08 09:36:41 | Cal
+2026/07/08 09:37:12 |   [시도 1/2] Page.goto 실패: Page.goto: Timeout 30000ms exceeded.
+2026/07/08 09:37:12 | Call log:
+2026/07/08 09:37:12 |   -
+2026/07/08 09:37:52 |   [시도 2/2] Page.goto 실패: Page.goto: Timeout 30000ms exceeded.
+2026/07/08 09:37:52 | Call log:
+2026/07/08 09:37:52 |   -
+2026/07/08 09:37:52 | [ 4/31] 상세페이지 바로가기               | ❌ Page.goto: Timeout 30000ms exceeded.
+2026/07/08 09:37:52 | Cal
+2026/07/08 09:37:52 |   연속 4개 작품 실패 → 조기 중단
+2026/07/08 09:37:54 | 수집 통계: 0/4 성공(조기 중단)
+2026/07/08 09:37:54 |   25분 뒤 자동 재시도 예약: 2026-07-08 10:02:54
+2026/07/08 09:37:56 | 수집 실패 알림 전송: 2명
+2026/07/08 09:43:16 |   [api] getUpdates 오류: <urlopen error _ssl.c:993: The handshake operation timed out>
+2026/07/08 09:43:16 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 09:44:07 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 09:46:27 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 09:46:27 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 09:46:36 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 09:46:51 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 09:47:13 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 09:47:55 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 09:49:02 | getUpdates 정상 복구 (실패 5회 후)
+2026/07/08 09:52:44 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 09:52:44 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 09:53:36 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 10:01:22 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 10:01:22 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 10:02:14 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 10:02:57 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 10:02:57 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 10:02:58 | [자동 재시도] 이전 조기 중단 후 4초 경과, 다시 수집 실행
+2026/07/08 10:03:00 | [최근 60일 댓글] 기준일: 2026.05.09 이후
+2026/07/08 10:03:02 |   사전 연결 점검 통과
+2026/07/08 10:03:03 |   [브라우저] 실제 창 모드로 실행
+2026/07/08 10:03:19 |   [로그인] 기존 세션 사용 (이미 로그인됨)
+2026/07/08 10:03:19 | [최근댓글] 기존 작품목록 31개 사용
+2026/07/08 10:03:49 |   [시도 1/2] Page.goto 실패: Page.goto: Timeout 30000ms exceeded.
+2026/07/08 10:03:49 | Call log:
+2026/07/08 10:03:49 |   -
+2026/07/08 10:04:29 |   [시도 2/2] Page.goto 실패: Page.goto: Timeout 30000ms exceeded.
+2026/07/08 10:04:29 | Call log:
+2026/07/08 10:04:29 |   -
+2026/07/08 10:04:29 | [ 1/31] 상세페이지 바로가기               | ❌ Page.goto: Timeout 30000ms exceeded.
+2026/07/08 10:04:29 | Cal
+2026/07/08 10:04:59 |   [시도 1/2] Page.goto 실패: Page.goto: Timeout 30000ms exceeded.
+2026/07/08 10:04:59 | Call log:
+2026/07/08 10:04:59 |   -
+2026/07/08 10:05:39 |   [시도 2/2] Page.goto 실패: Page.goto: Timeout 30000ms exceeded.
+2026/07/08 10:05:39 | Call log:
+2026/07/08 10:05:39 |   -
+2026/07/08 10:05:39 | [ 2/31] 상세페이지 바로가기               | ❌ Page.goto: Timeout 30000ms exceeded.
+2026/07/08 10:05:39 | Cal
+2026/07/08 10:06:10 |   [시도 1/2] Page.goto 실패: Page.goto: Timeout 30000ms exceeded.
+2026/07/08 10:06:10 | Call log:
+2026/07/08 10:06:10 |   -
+2026/07/08 10:06:50 |   [시도 2/2] Page.goto 실패: Page.goto: Timeout 30000ms exceeded.
+2026/07/08 10:06:50 | Call log:
+2026/07/08 10:06:50 |   -
+2026/07/08 10:06:50 | [ 3/31] 상세페이지 바로가기               | ❌ Page.goto: Timeout 30000ms exceeded.
+2026/07/08 10:06:50 | Cal
+2026/07/08 10:07:20 |   [시도 1/2] Page.goto 실패: Page.goto: Timeout 30000ms exceeded.
+2026/07/08 10:07:20 | Call log:
+2026/07/08 10:07:20 |   -
+2026/07/08 10:08:00 |   [시도 2/2] Page.goto 실패: Page.goto: Timeout 30000ms exceeded.
+2026/07/08 10:08:00 | Call log:
+2026/07/08 10:08:00 |   -
+2026/07/08 10:08:00 | [ 4/31] 상세페이지 바로가기               | ❌ Page.goto: Timeout 30000ms exceeded.
+2026/07/08 10:08:00 | Cal
+2026/07/08 10:08:00 |   연속 4개 작품 실패 → 조기 중단
+2026/07/08 10:08:03 | 수집 통계: 0/4 성공(조기 중단)
+2026/07/08 10:08:03 |   25분 뒤 자동 재시도 예약: 2026-07-08 10:33:03
+2026/07/08 10:08:03 | 수집 실패 알림 전송: 0명
+2026/07/08 10:08:55 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 10:19:26 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 10:19:26 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 10:20:18 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 10:20:32 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 10:20:32 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 10:21:33 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 10:21:44 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 10:21:44 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 10:22:36 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 10:22:50 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 10:22:50 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 10:23:50 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 10:24:01 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 10:24:01 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 10:24:53 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 10:25:06 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 10:25:06 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 10:25:58 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 10:26:12 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 10:26:12 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 10:27:04 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 10:27:18 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 10:27:18 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 10:28:09 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 10:28:24 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 10:28:24 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 10:29:16 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 10:29:30 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 10:29:30 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 10:30:22 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 10:30:36 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 10:30:36 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 10:31:27 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 10:31:42 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 10:31:42 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 10:32:33 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 10:32:47 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 10:32:47 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 10:33:39 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 10:33:53 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 10:33:53 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 10:34:45 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 10:34:59 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 10:34:59 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 10:35:50 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 10:36:04 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 10:36:04 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 10:36:57 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 10:37:10 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 10:37:10 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 10:38:02 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 10:38:16 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 10:38:16 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 10:39:08 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 10:39:22 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 10:39:22 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 10:40:13 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 10:40:27 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 10:40:27 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 10:41:19 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 10:41:33 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 10:41:33 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 10:42:25 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 10:42:42 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 10:42:42 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 10:43:34 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 10:43:54 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 10:43:54 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 10:44:59 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 10:45:23 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 10:45:23 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 10:46:15 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 10:46:36 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 10:46:36 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 10:47:28 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 10:47:49 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 10:47:49 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 10:48:40 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 10:58:34 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 10:58:34 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 10:59:42 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 11:00:11 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 11:00:11 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 11:01:03 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 11:16:20 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 11:16:20 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 11:17:12 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 11:21:17 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 11:21:17 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 11:22:09 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 11:37:21 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 11:37:21 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 11:38:13 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 11:38:41 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 11:38:41 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 11:39:33 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 11:39:52 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 11:39:52 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 11:40:44 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 11:41:05 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 11:41:05 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 11:41:57 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 11:42:23 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 11:42:23 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 11:43:15 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 11:43:29 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 11:43:29 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 11:44:21 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 11:44:42 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 11:44:42 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 11:45:34 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 11:45:54 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 11:45:54 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 11:46:46 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 11:47:13 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 11:47:13 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 11:48:05 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 11:48:26 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 11:48:26 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 11:49:19 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 11:49:39 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 11:49:39 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 11:50:44 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 11:51:01 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 11:51:01 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 11:51:53 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 11:52:14 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 11:52:14 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 11:53:06 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 12:02:36 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 12:02:36 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 12:03:28 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 12:03:42 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 12:03:42 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 12:04:33 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 12:04:53 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 12:04:53 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 12:05:45 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 12:06:06 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 12:06:06 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 12:06:57 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 12:07:18 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 12:07:18 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 12:08:10 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 12:08:36 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 12:08:36 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 12:09:27 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 12:09:45 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 12:09:45 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 12:10:37 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 12:10:57 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 12:10:57 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 12:11:49 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 12:12:14 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 12:12:14 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 12:13:06 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 12:13:27 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 12:13:27 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 12:14:19 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 12:14:47 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 12:14:47 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 12:15:51 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 12:16:09 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 12:16:09 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 12:17:01 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 12:17:29 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 12:17:29 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 12:18:21 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 12:18:41 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 12:18:41 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 12:19:33 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 12:19:54 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 12:19:54 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 12:20:46 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 12:21:17 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 12:21:17 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 12:22:09 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 12:22:29 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 12:22:29 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 12:23:21 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 12:23:49 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 12:23:49 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 12:24:41 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 12:25:02 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 12:25:02 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 12:25:54 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 12:26:13 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 12:26:13 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 12:27:05 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 12:27:22 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 12:27:22 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 12:28:14 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 12:31:43 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 12:31:43 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 12:32:35 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 12:33:07 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 12:33:07 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 12:33:59 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 12:34:12 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 12:34:12 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 12:35:04 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 12:35:18 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 12:35:18 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 12:36:10 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 12:36:24 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 12:36:24 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 12:37:18 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 12:37:29 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 12:37:29 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 12:38:21 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 12:38:35 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 12:38:35 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 12:39:26 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 12:39:40 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 12:39:40 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 12:40:32 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 12:40:46 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 12:40:46 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 12:41:38 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 12:41:52 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 12:41:52 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 12:42:43 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 12:42:57 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 12:42:57 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 12:43:49 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 12:44:03 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 12:44:03 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 12:44:55 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 12:45:09 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 12:45:09 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 12:46:02 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 12:46:13 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 12:46:13 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 12:47:05 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 12:47:19 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 12:47:19 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 12:48:11 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 12:48:24 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 12:48:24 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 12:49:16 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 12:49:30 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 12:49:30 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 12:50:25 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 12:50:36 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 12:50:36 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 12:51:27 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 12:51:41 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 12:51:41 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 12:52:33 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 12:52:47 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 12:52:47 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 12:53:39 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 12:53:54 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 12:53:54 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 12:54:46 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 12:55:05 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 12:55:05 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 12:55:57 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 12:56:08 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 12:56:08 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 12:57:00 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 12:57:14 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 12:57:14 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 12:58:05 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 12:58:19 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 12:58:19 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 12:59:11 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 12:59:25 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 12:59:25 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 13:00:17 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 13:00:31 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 13:00:31 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 13:01:23 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 13:01:37 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 13:01:37 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 13:02:28 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 13:02:42 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 13:02:42 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 13:03:34 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 13:03:48 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 13:03:48 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 13:04:40 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 13:04:54 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 13:04:54 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 13:05:46 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 13:11:07 |   [api] getUpdates 오류: <urlopen error _ssl.c:993: The handshake operation timed out>
+2026/07/08 13:11:07 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 13:11:59 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 13:20:10 |   [api] getUpdates 오류: <urlopen error _ssl.c:993: The handshake operation timed out>
+2026/07/08 13:20:10 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 13:21:01 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 13:22:31 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 13:22:31 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 13:24:19 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 14:28:41 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 14:28:41 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 14:29:33 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 14:46:23 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 14:46:23 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 14:47:15 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 14:47:29 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 14:47:29 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 14:48:21 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 14:48:34 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 14:48:34 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 14:49:26 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 14:49:40 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 14:49:40 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 14:50:32 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 14:50:46 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 14:50:46 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 14:51:38 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 14:51:51 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 14:51:51 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 14:52:43 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 14:52:57 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 14:52:57 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 14:53:49 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 14:54:03 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 14:54:03 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 14:54:55 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 14:55:09 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 14:55:09 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 14:56:01 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 14:56:14 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 14:56:14 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 14:57:06 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 14:57:20 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 14:57:20 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 14:58:12 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 14:58:26 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 14:58:26 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 14:59:17 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 14:59:31 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 14:59:31 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 15:00:23 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 15:00:37 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 15:00:37 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 15:01:29 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 15:01:43 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 15:01:43 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 15:02:34 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 15:03:05 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 15:03:05 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 15:03:57 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 15:04:08 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 15:04:08 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 15:04:59 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 15:05:13 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 15:05:13 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 15:06:05 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 15:06:19 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 15:06:19 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 15:07:11 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 15:07:25 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 15:07:25 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 15:08:16 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 15:08:30 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 15:08:30 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 15:09:22 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 15:09:36 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 15:09:36 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 15:10:28 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 15:10:42 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 15:10:42 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 15:11:49 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 15:12:02 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 15:12:02 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 15:12:54 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 15:13:08 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 15:13:08 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 15:14:00 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 15:14:14 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 15:14:14 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 15:15:06 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 15:15:20 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 15:15:20 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 15:16:12 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 15:16:26 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 15:16:26 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 15:17:17 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 15:18:19 |   [api] getUpdates 오류: <urlopen error _ssl.c:993: The handshake operation timed out>
+2026/07/08 15:18:19 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 15:19:11 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 15:19:21 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 15:19:21 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 15:20:13 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 15:20:27 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 15:20:27 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 15:21:19 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 15:21:33 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 15:21:33 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 15:22:25 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 15:22:38 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 15:22:38 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 15:23:30 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 15:23:44 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 15:23:44 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 15:24:36 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 15:24:50 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 15:24:50 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 15:25:42 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 15:25:56 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 15:25:56 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 15:26:47 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 15:27:01 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 15:27:01 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 15:27:53 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 15:28:07 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 15:28:07 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 15:28:59 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 15:29:13 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 15:29:13 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 15:30:04 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 15:30:18 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 15:30:18 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 15:31:10 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 15:31:24 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 15:31:24 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 15:32:16 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 15:32:49 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 15:32:49 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 15:33:41 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 15:33:55 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 15:33:55 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 15:34:47 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 15:35:01 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 15:35:01 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 15:35:52 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 15:36:06 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 15:36:06 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 15:36:58 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 15:37:18 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 15:37:18 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 15:38:10 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 15:38:24 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 15:38:24 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 15:39:16 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 15:39:29 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 15:39:29 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 15:40:21 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 15:40:35 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 15:40:35 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 15:41:27 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 15:41:41 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 15:41:41 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 15:42:33 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 15:42:46 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 15:42:46 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 15:43:38 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 15:43:52 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 15:43:52 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 15:44:44 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 15:44:58 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 15:44:58 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 15:45:50 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 15:46:04 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 15:46:04 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 15:46:56 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 15:47:09 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 15:47:09 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 15:48:01 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 15:48:15 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 15:48:15 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 15:49:07 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 15:49:21 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 15:49:21 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 15:50:12 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 15:50:26 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 15:50:26 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 15:51:18 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 15:51:32 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 15:51:32 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 15:52:24 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 15:52:37 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 15:52:37 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 15:53:29 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 15:53:43 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 15:53:43 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 15:54:35 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 15:54:49 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 15:54:49 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 15:55:41 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 15:55:55 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 15:55:55 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 15:56:46 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 15:57:00 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 15:57:00 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 15:57:52 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 15:58:06 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 15:58:06 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 15:58:58 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 15:59:11 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 15:59:11 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 16:00:03 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 16:00:17 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 16:00:17 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 16:01:09 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 16:01:23 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 16:01:23 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 16:02:15 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 16:02:29 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 16:02:29 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 16:03:20 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 16:03:34 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 16:03:34 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 16:04:26 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 16:04:40 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 16:04:40 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 16:05:32 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 16:05:46 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 16:05:46 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 16:06:37 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 16:06:51 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 16:06:51 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 16:07:43 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 16:07:57 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 16:07:57 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 16:08:49 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 16:09:03 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 16:09:03 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 16:09:55 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 16:10:10 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 16:10:10 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 16:11:01 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 16:11:15 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 16:11:15 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 16:12:07 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 16:12:21 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 16:12:21 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 16:13:13 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 16:13:26 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 16:13:26 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 16:14:22 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 16:14:33 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 16:14:33 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 16:15:25 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 16:15:38 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 16:15:38 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 16:16:30 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 16:17:54 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 16:17:54 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 16:18:45 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 16:19:01 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 16:19:01 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 16:19:53 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 16:20:10 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 16:20:10 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 16:21:01 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 16:21:16 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 16:21:16 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 16:22:07 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 16:22:21 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 16:22:21 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 16:23:13 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 16:23:27 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 16:23:27 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 16:24:19 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 16:24:32 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 16:24:32 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 16:25:24 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 16:25:38 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 16:25:38 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 16:26:30 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 16:26:44 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 16:26:44 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 16:27:35 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 16:27:49 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 16:27:49 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 16:28:41 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 16:28:55 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 16:28:55 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 16:29:47 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 16:30:00 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 16:30:00 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 16:30:52 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 16:31:06 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 16:31:06 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 16:31:58 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 16:32:12 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 16:32:12 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 16:33:03 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 16:33:17 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 16:33:17 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 16:34:09 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 16:34:23 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 16:34:23 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 16:35:15 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 16:35:29 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 16:35:29 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 16:36:21 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 16:36:35 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 16:36:35 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 16:37:26 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 16:37:45 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 16:37:45 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 16:38:37 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 16:38:51 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 16:38:51 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 16:39:43 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 16:39:57 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 16:39:57 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 16:40:49 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 16:41:03 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 16:41:03 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 16:41:55 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 16:42:09 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 16:42:09 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 16:43:00 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 16:43:14 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 16:43:14 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 16:44:06 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 16:44:20 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 16:44:20 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 16:45:12 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 16:45:26 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 16:45:26 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 16:46:17 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 16:46:31 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 16:46:31 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 16:47:23 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 16:47:37 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 16:47:37 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 16:48:29 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 16:48:43 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 16:48:43 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 16:49:34 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 16:49:48 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 16:49:48 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 16:50:40 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 16:50:54 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 16:50:54 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 16:51:46 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 16:51:59 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 16:51:59 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 16:52:51 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 16:53:05 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 16:53:05 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 16:53:57 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 16:54:11 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 16:54:11 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 16:55:02 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 16:55:16 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 16:55:16 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 16:56:08 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 16:56:22 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 16:56:22 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 16:57:14 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 16:57:27 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 16:57:27 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 16:58:19 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 16:58:34 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 16:58:34 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 16:59:26 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 16:59:40 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 16:59:40 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 17:00:32 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 17:00:45 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 17:00:45 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 17:01:37 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 17:01:51 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 17:01:51 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 17:02:43 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 17:02:57 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 17:02:57 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 17:03:49 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 17:04:03 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 17:04:03 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 17:04:54 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 17:05:08 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 17:05:08 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 17:06:00 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 17:06:14 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 17:06:14 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 17:07:06 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 17:07:19 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 17:07:19 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 17:08:11 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 17:08:25 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 17:08:25 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 17:09:17 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 17:09:31 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 17:09:31 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 17:10:26 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 17:10:36 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 17:10:36 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 17:11:28 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 17:11:42 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 17:11:42 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 17:12:34 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 17:12:47 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 17:12:47 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 17:13:39 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 17:13:53 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 17:13:53 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 17:14:45 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 17:14:59 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 17:14:59 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 17:15:51 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 17:16:05 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 17:16:05 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 17:16:56 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 17:17:10 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 17:17:10 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 17:18:02 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 17:18:16 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 17:18:16 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 17:19:08 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 17:19:21 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 17:19:21 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 17:20:19 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 17:20:30 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 17:20:30 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 17:21:22 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 17:21:35 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 17:21:35 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 17:22:27 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 17:22:41 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 17:22:41 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 17:23:33 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 17:23:47 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 17:23:47 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 17:24:39 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 17:24:52 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 17:24:52 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 17:25:44 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 17:25:58 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 17:25:58 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 17:26:50 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 17:27:04 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 17:27:04 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 17:27:55 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 17:28:09 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 17:28:09 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 17:29:01 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 17:29:15 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 17:29:15 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 17:30:13 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 17:30:24 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 17:30:24 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 17:31:16 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 17:31:30 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 17:31:30 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 17:32:21 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 17:32:35 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 17:32:35 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 17:33:27 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 17:33:45 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 17:33:45 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 17:34:37 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 17:34:50 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 17:34:50 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 17:35:42 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 17:35:56 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 17:35:56 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 17:36:48 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 17:37:02 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 17:37:02 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 17:37:54 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 17:38:07 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 17:38:07 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 17:38:59 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 17:39:13 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 17:39:13 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 17:40:05 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 17:40:19 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 17:40:19 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 17:41:11 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 17:41:24 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 17:41:24 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 17:42:16 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 17:42:30 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 17:42:30 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 17:43:22 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 17:43:36 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 17:43:36 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 17:44:27 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 17:44:42 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 17:44:42 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 17:45:34 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 17:45:45 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 17:45:45 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 17:46:37 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 17:46:53 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 17:46:53 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 17:47:45 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 17:47:58 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 17:47:58 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 17:48:50 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 17:49:04 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 17:49:04 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 17:49:57 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 17:50:11 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 17:50:11 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 17:51:03 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 17:52:31 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 17:52:31 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 17:53:23 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 17:53:37 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 17:53:37 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 17:54:28 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 17:55:30 |   [api] getUpdates 오류: <urlopen error _ssl.c:993: The handshake operation timed out>
+2026/07/08 17:55:30 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 17:56:22 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 17:56:33 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 17:56:33 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 17:57:25 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 17:57:39 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 17:57:39 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 17:58:30 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 17:58:45 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 17:58:45 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 17:59:41 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 17:59:51 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 17:59:51 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 18:00:42 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 18:00:56 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 18:00:56 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 18:01:48 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 18:02:02 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 18:02:02 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 18:02:54 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 18:03:07 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 18:03:07 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 18:03:59 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 18:04:13 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 18:04:13 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 18:05:05 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 18:05:19 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 18:05:19 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 18:06:11 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 18:06:25 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 18:06:25 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 18:07:16 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 18:07:30 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 18:07:30 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 18:08:22 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 18:08:36 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 18:08:36 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 18:09:28 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 18:09:41 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 18:09:41 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 18:10:33 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 18:10:47 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 18:10:47 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 18:11:39 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 18:11:54 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 18:11:54 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 18:12:46 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 18:13:00 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 18:13:00 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 18:13:52 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 18:14:05 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 18:14:05 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 18:14:57 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 18:15:11 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 18:15:11 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 18:16:03 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 18:16:17 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 18:16:17 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 18:17:08 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 18:17:22 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 18:17:22 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 18:18:14 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 18:18:28 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 18:18:28 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 18:19:20 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 18:19:34 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 18:19:34 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 18:20:26 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 18:20:39 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 18:20:39 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 18:21:31 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 18:21:47 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 18:21:47 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 18:22:39 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 18:22:53 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 18:22:53 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 18:23:45 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 18:23:59 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 18:23:59 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 18:24:53 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 18:25:04 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 18:25:04 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 18:25:56 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 18:26:10 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 18:26:10 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 18:27:01 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 18:27:15 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 18:27:15 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 18:28:07 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 18:28:21 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 18:28:21 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 18:29:12 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 18:29:26 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 18:29:26 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 18:30:18 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 18:30:32 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 18:30:32 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 18:31:24 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 18:31:38 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 18:31:38 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 18:32:29 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 18:32:43 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 18:32:43 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 18:33:35 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 18:33:49 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 18:33:49 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 18:34:41 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 18:34:54 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 18:34:54 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 18:35:46 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 18:36:00 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 18:36:00 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 18:36:52 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 18:37:06 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 18:37:06 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 18:37:57 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 18:38:11 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 18:38:11 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 18:39:03 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 18:39:17 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 18:39:17 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 18:40:12 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 18:40:23 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 18:40:23 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 18:41:14 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 18:41:29 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 18:41:29 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 18:42:20 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 18:42:34 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 18:42:34 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 18:43:26 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 18:43:40 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 18:43:40 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 18:44:32 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 18:44:46 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 18:44:46 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 18:45:37 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 18:45:51 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 18:45:51 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 18:46:43 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 18:46:57 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 18:46:57 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 18:47:49 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 18:48:02 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 18:48:02 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 18:48:54 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 18:49:08 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 18:49:08 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 18:50:00 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 18:50:14 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 18:50:14 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 18:51:05 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 18:51:19 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 18:51:19 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 18:52:11 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 18:52:25 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 18:52:25 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 18:53:17 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 18:53:31 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 18:53:31 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 18:54:28 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 18:54:39 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 18:54:39 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 18:55:31 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 18:55:45 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 18:55:45 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 18:56:37 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 18:56:50 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 18:56:50 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 18:57:42 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 18:57:56 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 18:57:56 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 18:58:48 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 18:59:02 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 18:59:02 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 18:59:54 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 19:00:07 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 19:00:07 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 19:00:59 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 19:01:13 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 19:01:13 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 19:02:19 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 19:02:30 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 19:02:30 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 19:03:22 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 19:03:35 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 19:03:35 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 19:04:27 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 19:04:41 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 19:04:41 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 19:05:33 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 19:05:47 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 19:05:47 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 19:06:38 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 19:06:52 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 19:06:52 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 19:07:44 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 19:07:58 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 19:07:58 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 19:08:50 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 19:09:04 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 19:09:04 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 19:09:55 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 19:10:09 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 19:10:09 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 19:11:02 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 19:11:13 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 19:11:13 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 19:12:05 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 19:12:19 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 19:12:19 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 19:13:11 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 19:13:24 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 19:13:24 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 19:14:16 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 19:14:30 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 19:14:30 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 19:15:22 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 19:15:36 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 19:15:36 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 19:16:27 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 19:16:41 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 19:16:41 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 19:17:33 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 19:17:47 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 19:17:47 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 19:18:39 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 19:18:57 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 19:18:57 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 19:19:49 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 19:20:02 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 19:20:02 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 19:20:54 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 19:21:08 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 19:21:08 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 19:22:00 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 19:22:14 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 19:22:14 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 19:23:06 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 19:23:19 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 19:23:19 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 19:24:11 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 19:24:25 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 19:24:25 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 19:25:17 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 19:25:31 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 19:25:31 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 19:26:23 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 19:26:36 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 19:26:36 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 19:27:28 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 19:27:42 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 19:27:42 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 19:28:34 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 19:28:48 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 19:28:48 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 19:29:39 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 19:29:55 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 19:29:55 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 19:30:46 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 19:31:00 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 19:31:00 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 19:31:54 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 19:32:05 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 19:32:05 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 19:32:57 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 19:33:10 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 19:33:11 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 19:34:02 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 19:34:16 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 19:34:16 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 19:35:08 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 19:35:22 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 19:35:22 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 19:36:14 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 19:36:28 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 19:36:28 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 19:37:19 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 19:37:33 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 19:37:33 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 19:38:25 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 19:38:39 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 19:38:39 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 19:39:31 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 19:39:45 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 19:39:45 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 19:40:37 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 19:40:51 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 19:40:51 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 19:41:42 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 19:41:56 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 19:41:56 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 19:42:48 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 19:43:02 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 19:43:02 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 19:43:54 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 19:44:08 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 19:44:08 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 19:44:59 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 19:45:13 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 19:45:13 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 19:46:05 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 19:46:19 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 19:46:19 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 19:47:11 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 19:47:25 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 19:47:25 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 19:48:16 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 19:48:31 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 19:48:31 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 19:49:23 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 19:49:37 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 19:49:37 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 19:50:29 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 19:50:42 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 19:50:42 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 19:51:34 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 19:51:48 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 19:51:48 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 19:52:40 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 19:52:54 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 19:52:54 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 19:53:46 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 19:54:00 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 19:54:00 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 19:54:52 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 19:55:06 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 19:55:06 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 19:55:58 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 19:56:11 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 19:56:11 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 19:57:03 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 19:57:17 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 19:57:17 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 19:58:09 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 19:58:23 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 19:58:23 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 19:59:15 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 19:59:28 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 19:59:28 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 20:00:21 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 20:00:35 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 20:00:35 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 20:01:35 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 20:01:46 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 20:01:46 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 20:02:37 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 20:02:51 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 20:02:51 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 20:03:43 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 20:03:57 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 20:03:57 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 20:04:49 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 20:05:02 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 20:05:02 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 20:05:54 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 20:06:08 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 20:06:08 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 20:07:00 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 20:07:14 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 20:07:14 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 20:08:06 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 20:08:19 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 20:08:19 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 20:09:11 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 20:09:25 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 20:09:25 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 20:10:17 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 20:10:31 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 20:10:31 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 20:11:23 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 20:11:37 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 20:11:37 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 20:12:29 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 20:12:42 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 20:12:42 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 20:13:34 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 20:13:48 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 20:13:48 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 20:14:40 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 20:14:54 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 20:14:54 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 20:15:46 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 20:15:59 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 20:15:59 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 20:16:51 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 20:17:05 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 20:17:05 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 20:17:57 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 20:18:11 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 20:18:11 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 20:19:02 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 20:19:16 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 20:19:16 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 20:20:08 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 20:20:22 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 20:20:22 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 20:21:14 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 20:21:27 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 20:21:27 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 20:22:20 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 20:22:33 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 20:22:33 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 20:23:25 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 20:23:39 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 20:23:39 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 20:24:31 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 20:24:45 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 20:24:45 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 20:25:37 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 20:26:38 |   [api] getUpdates 오류: <urlopen error _ssl.c:993: The handshake operation timed out>
+2026/07/08 20:26:38 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 20:27:30 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 20:27:41 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 20:27:41 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 20:28:33 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 20:28:47 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 20:28:47 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 20:29:39 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 20:29:53 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 20:29:53 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 20:30:45 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 20:30:58 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 20:30:58 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 20:31:50 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 20:32:04 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 20:32:04 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 20:32:56 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 20:33:10 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 20:33:10 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 20:34:01 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 20:34:17 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 20:34:17 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 20:35:11 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 20:35:22 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 20:35:22 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 20:36:14 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 20:36:28 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 20:36:28 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 20:37:20 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 20:37:33 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 20:37:33 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 20:38:25 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 20:38:39 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 20:38:39 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 20:39:31 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 20:39:45 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 20:39:45 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 20:40:36 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 20:40:51 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 20:40:51 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 20:41:44 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 20:41:55 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 20:41:55 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 20:42:46 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 20:43:00 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 20:43:00 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 20:43:52 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 20:44:06 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 20:44:06 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 20:44:58 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 20:45:12 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 20:45:12 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 20:46:03 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 20:46:18 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 20:46:18 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 20:47:09 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 20:47:23 |   [api] getUpdates 오류: HTTP Error 409: Conflict
+2026/07/08 20:47:23 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 20:48:15 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 20:53:44 |   [api] getUpdates 오류: <urlopen error _ssl.c:993: The handshake operation timed out>
+2026/07/08 20:53:44 | [getUpdates 실패 1회] 1초 대기 후 재시도...
+2026/07/08 20:54:36 | getUpdates 정상 복구 (실패 1회 후)
+2026/07/08 20:57:17 | [최근 60일 댓글] 기준일: 2026.05.09 이후
+2026/07/08 20:57:19 |   사전 연결 점검 통과
+2026/07/08 20:57:20 |   [브라우저] 실제 창 모드로 실행
+2026/07/08 20:57:39 |   [로그인] 기존 세션 사용 (이미 로그인됨)
+2026/07/08 20:57:39 | [최근댓글] 기존 작품목록 31개 사용
+2026/07/08 20:58:10 |   [시도 1/2] Page.goto 실패: Page.goto: Timeout 30000ms exceeded.
+2026/07/08 20:58:10 | Call log:
+2026/07/08 20:58:10 |   -
+2026/07/08 20:58:50 |   [시도 2/2] Page.goto 실패: Page.goto: Timeout 30000ms exceeded.
+2026/07/08 20:58:50 | Call log:
+2026/07/08 20:58:50 |   -
+2026/07/08 20:58:50 | [ 1/31] 상세페이지 바로가기               | ❌ Page.goto: Timeout 30000ms exceeded.
+2026/07/08 20:58:50 | Cal
+2026/07/08 20:59:20 |   [시도 1/2] Page.goto 실패: Page.goto: Timeout 30000ms exceeded.
+2026/07/08 20:59:20 | Call log:
+2026/07/08 20:59:20 |   -
+2026/07/08 21:00:00 |   [시도 2/2] Page.goto 실패: Page.goto: Timeout 30000ms exceeded.
+2026/07/08 21:00:00 | Call log:
+2026/07/08 21:00:00 |   -
+2026/07/08 21:00:00 | [ 2/31] 상세페이지 바로가기               | ❌ Page.goto: Timeout 30000ms exceeded.
+2026/07/08 21:00:00 | Cal
+2026/07/08 21:00:31 |   [시도 1/2] Page.goto 실패: Page.goto: Timeout 30000ms exceeded.
+2026/07/08 21:00:31 | Call log:
+2026/07/08 21:00:31 |   -
+2026/07/08 21:01:11 |   [시도 2/2] Page.goto 실패: Page.goto: Timeout 30000ms exceeded.
+2026/07/08 21:01:11 | Call log:
+2026/07/08 21:01:11 |   -
+2026/07/08 21:01:11 | [ 3/31] 상세페이지 바로가기               | ❌ Page.goto: Timeout 30000ms exceeded.
+2026/07/08 21:01:11 | Cal
+2026/07/08 21:01:41 |   [시도 1/2] Page.goto 실패: Page.goto: Timeout 30000ms exceeded.
+2026/07/08 21:01:41 | Call log:
+2026/07/08 21:01:41 |   -
+2026/07/08 21:02:21 |   [시도 2/2] Page.goto 실패: Page.goto: Timeout 30000ms exceeded.
+2026/07/08 21:02:21 | Call log:
+2026/07/08 21:02:21 |   -
+2026/07/08 21:02:21 | [ 4/31] 상세페이지 바로가기               | ❌ Page.goto: Timeout 30000ms exceeded.
+2026/07/08 21:02:21 | Cal
+2026/07/08 21:02:21 |   연속 4개 작품 실패 → 조기 중단
+2026/07/08 21:02:24 | 수집 통계: 0/4 성공(조기 중단)
+2026/07/08 21:02:24 |   25분 뒤 자동 재시도 예약: 2026-07-08 21:27:24
+2026/07/08 21:02:25 | 수집 실패 알림 전송: 1명
+2026/07/08 21:27:38 | [자동 재시도] 이전 조기 중단 후 15초 경과, 다시 수집 실행
+2026/07/08 21:27:41 | [최근 60일 댓글] 기준일: 2026.05.09 이후
+2026/07/08 21:27:43 |   사전 연결 점검 통과
+2026/07/08 21:27:44 |   [브라우저] 실제 창 모드로 실행
+2026/07/08 21:27:58 |   [로그인] 기존 세션 사용 (이미 로그인됨)
+2026/07/08 21:27:58 | [최근댓글] 기존 작품목록 31개 사용
+2026/07/08 21:28:16 | [ 1/31] 파고드는 사랑                  | 최근 60일 댓글   0개
+2026/07/08 21:28:29 | [ 2/31] 웨딩데이                     | 최근 60일 댓글   0개
+2026/07/08 21:29:00 |   [시도 1/2] Page.goto 실패: Page.goto: Timeout 30000ms exceeded.
+2026/07/08 21:29:00 | Call log:
+2026/07/08 21:29:00 |   -
+2026/07/08 21:29:40 |   [시도 2/2] Page.goto 실패: Page.goto: Timeout 30000ms exceeded.
+2026/07/08 21:29:40 | Call log:
+2026/07/08 21:29:40 |   -
+2026/07/08 21:29:40 | [ 3/31] 상세페이지 바로가기               | ❌ Page.goto: Timeout 30000ms exceeded.
+2026/07/08 21:29:40 | Cal
+2026/07/08 21:30:10 |   [시도 1/2] Page.goto 실패: Page.goto: Timeout 30000ms exceeded.
+2026/07/08 21:30:10 | Call log:
+2026/07/08 21:30:10 |   -
+2026/07/08 21:30:50 |   [시도 2/2] Page.goto 실패: Page.goto: Timeout 30000ms exceeded.
+2026/07/08 21:30:50 | Call log:
+2026/07/08 21:30:50 |   -
+2026/07/08 21:30:50 | [ 4/31] 상세페이지 바로가기               | ❌ Page.goto: Timeout 30000ms exceeded.
+2026/07/08 21:30:50 | Cal
+2026/07/08 21:31:21 |   [시도 1/2] Page.goto 실패: Page.goto: Timeout 30000ms exceeded.
+2026/07/08 21:31:21 | Call log:
+2026/07/08 21:31:21 |   -
+2026/07/08 21:32:01 |   [시도 2/2] Page.goto 실패: Page.goto: Timeout 30000ms exceeded.
+2026/07/08 21:32:01 | Call log:
+2026/07/08 21:32:01 |   -
+2026/07/08 21:32:01 | [ 5/31] 상세페이지 바로가기               | ❌ Page.goto: Timeout 30000ms exceeded.
+2026/07/08 21:32:01 | Cal
+2026/07/08 21:32:31 |   [시도 1/2] Page.goto 실패: Page.goto: Timeout 30000ms exceeded.
+2026/07/08 21:32:31 | Call log:
+2026/07/08 21:32:31 |   -
+2026/07/08 21:33:11 |   [시도 2/2] Page.goto 실패: Page.goto: Timeout 30000ms exceeded.
+2026/07/08 21:33:11 | Call log:
+2026/07/08 21:33:11 |   -
+2026/07/08 21:33:11 | [ 6/31] 상세페이지 바로가기               | ❌ Page.goto: Timeout 30000ms exceeded.
+2026/07/08 21:33:11 | Cal
+2026/07/08 21:33:11 |   연속 4개 작품 실패 → 조기 중단
+2026/07/08 21:33:17 | 수집 통계: 2/6 성공(조기 중단)
+2026/07/08 21:33:17 |   25분 뒤 자동 재시도 예약: 2026-07-08 21:58:17
+2026/07/08 21:33:17 | 수집 실패 알림 전송: 0명
+2026/07/08 21:33:17 | 
+2026/07/08 21:33:17 | 새 댓글 없음 → 알림 보내지 않음 (NOTIFY_WHEN_EMPTY=False)
+2026/07/08 21:33:21 | [최근 60일 댓글] 기준일: 2026.05.09 이후
+2026/07/08 21:33:23 |   사전 연결 점검 통과
+2026/07/08 21:33:24 |   [브라우저] 실제 창 모드로 실행
+2026/07/08 21:33:32 |   [로그인] 기존 세션 사용 (이미 로그인됨)
+2026/07/08 21:33:32 | [최근댓글] 기존 작품목록 31개 사용
+2026/07/08 21:33:49 | [ 1/31] 파고드는 사랑                  | 최근 60일 댓글   0개
+2026/07/08 21:34:19 |   [시도 1/2] Page.goto 실패: Page.goto: Timeout 30000ms exceeded.
+2026/07/08 21:34:19 | Call log:
+2026/07/08 21:34:19 |   -
+2026/07/08 21:34:59 |   [시도 2/2] Page.goto 실패: Page.goto: Timeout 30000ms exceeded.
+2026/07/08 21:34:59 | Call log:
+2026/07/08 21:34:59 |   -
+2026/07/08 21:34:59 | [ 2/31] 상세페이지 바로가기               | ❌ Page.goto: Timeout 30000ms exceeded.
+2026/07/08 21:34:59 | Cal
+2026/07/08 21:35:29 |   [시도 1/2] Page.goto 실패: Page.goto: Timeout 30000ms exceeded.
+2026/07/08 21:35:29 | Call log:
+2026/07/08 21:35:29 |   -
+2026/07/08 21:36:09 |   [시도 2/2] Page.goto 실패: Page.goto: Timeout 30000ms exceeded.
+2026/07/08 21:36:09 | Call log:
+2026/07/08 21:36:09 |   -
+2026/07/08 21:36:09 | [ 3/31] 상세페이지 바로가기               | ❌ Page.goto: Timeout 30000ms exceeded.
+2026/07/08 21:36:09 | Cal
+2026/07/08 21:36:40 |   [시도 1/2] Page.goto 실패: Page.goto: Timeout 30000ms exceeded.
+2026/07/08 21:36:40 | Call log:
+2026/07/08 21:36:40 |   -
+2026/07/08 21:37:20 |   [시도 2/2] Page.goto 실패: Page.goto: Timeout 30000ms exceeded.
+2026/07/08 21:37:20 | Call log:
+2026/07/08 21:37:20 |   -
+2026/07/08 21:37:20 | [ 4/31] 상세페이지 바로가기               | ❌ Page.goto: Timeout 30000ms exceeded.
+2026/07/08 21:37:20 | Cal
+2026/07/08 21:37:50 |   [시도 1/2] Page.goto 실패: Page.goto: Timeout 30000ms exceeded.
+2026/07/08 21:37:50 | Call log:
+2026/07/08 21:37:50 |   -
+2026/07/08 21:38:30 |   [시도 2/2] Page.goto 실패: Page.goto: Timeout 30000ms exceeded.
+2026/07/08 21:38:30 | Call log:
+2026/07/08 21:38:30 |   -
+2026/07/08 21:38:30 | [ 5/31] 상세페이지 바로가기               | ❌ Page.goto: Timeout 30000ms exceeded.
+2026/07/08 21:38:30 | Cal
+2026/07/08 21:38:30 |   연속 4개 작품 실패 → 조기 중단
+2026/07/08 21:38:35 | 수집 통계: 1/5 성공(조기 중단)
+2026/07/08 21:38:35 |   25분 뒤 자동 재시도 예약: 2026-07-08 22:03:35
+2026/07/08 21:38:36 | 수집 실패 알림 전송: 1명
+2026/07/08 21:38:36 | 
+2026/07/08 21:38:36 | 새 댓글 없음 → 알림 보내지 않음 (NOTIFY_WHEN_EMPTY=False)
