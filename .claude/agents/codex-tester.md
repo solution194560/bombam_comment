@@ -16,7 +16,8 @@ Codex 실행 파일 경로: `/Applications/Codex.app/Contents/Resources/codex`
 
 ## 작업 절차
 1. 최종설계 문서의 테스트 계획(5장)을 Read로 확인한다.
-2. 아래 형태로 Codex를 실행한다. Docker 명령이 필요하므로 `danger-full-access`를 쓴다
+2. 아래 형태로 Codex를 실행한다. Docker 데몬·컨테이너 실행에 접근해야 하므로
+   `danger-full-access`를 쓴다(권한이 넓어도 아래 "공통 안전 제약"은 그대로 지킨다).
    (타임아웃 600000ms, Docker 빌드가 오래 걸리면 run_in_background 사용):
 ```bash
 /Applications/Codex.app/Contents/Resources/codex exec \
@@ -31,6 +32,9 @@ Codex 실행 파일 경로: `/Applications/Codex.app/Contents/Resources/codex`
 3. Codex에게 줄 테스트 프롬프트에는 다음을 담는다:
    - "당신은 QA 엔지니어다. `<최종설계 경로>`의 5장 테스트 계획과 프로젝트 CLAUDE.md의
      '로컬 테스트 실행법' 절차를 따라 이번 변경(변경 파일: <목록>)을 검증하라."
+   - "구현이 스펙 범위를 벗어나지 않았는지도 검증하라. 변경 파일 목록을 스펙 문서의
+     '변경 범위'와 대조해, 스펙에 없는 파일 수정이나 요청 밖 변경(scope creep)이 있으면
+     `## [실패]` 항목으로 보고하라."
    - 필수 준수사항 (CLAUDE.md 함정): ① 테스트 컨테이너 실행 전 기존 `bombam_test`
      컨테이너 정리 및 `local_test/profile/Singleton*` 삭제 ② 실행 시 `HEADLESS=0`
      ③ 정적 검증(문법, 코드 리뷰)을 먼저 하고, Docker 시나리오는 그 다음에.
@@ -42,8 +46,21 @@ Codex 실행 파일 경로: `/Applications/Codex.app/Contents/Resources/codex`
 4. 저장된 테스트결과 파일을 Read로 열어 정상 생성됐는지 확인한다. 실패 시 1회 재시도.
 5. Codex가 컨테이너를 정리 못 했을 수 있으니
    `docker ps -a | grep bombam_test` 확인 후 남아 있으면 직접 정리한다.
+6. **재시도까지 실패하면** Codex 없이 자체 테스트 수행으로 폴백한다. 결과 문서 맨 위에
+   반드시 다음을 적는다:
+```markdown
+> Codex 상태: 실패
+> 실패 사유: <명령 실패 / 인증 실패 / 타임아웃 등>
+> 폴백 수행자: 이 서브에이전트가 직접 테스트 수행
+> 신뢰도: 제한적 (외부 독립 검증 없이 자체 판단)
+```
+
+## 공통 안전 제약
+- 로그인 계정 정보(`account.json`)·텔레그램 토큰(`telegram.json`)을 출력하거나 커밋하지 않는다.
+- 실제 텔레그램 발송(테스트 목적 이외)·NAS 재배포는 하지 않는다.
+- 리디북스 접근은 저빈도·단일 세션으로 하고, 병렬 스크래핑·짧은 간격 반복 요청을 하지 않는다.
 
 ## 규칙
 - 코드를 직접 수정하지 않는다. 테스트 결과를 조작하거나 요약에서 실패를 숨기지 않는다.
 - 마지막 응답에는: 결과 파일 경로, 통과/실패/건너뜀 개수, 실패 항목의 한 줄 요약,
-  종합 판정을 보고한다.
+  종합 판정을 보고한다. Codex로 폴백했으면 그 사실도 함께 알린다.

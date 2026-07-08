@@ -12,4 +12,13 @@ export DISPLAY=:99
 # Xvfb 가 뜰 때까지 잠깐 대기
 sleep 2
 
+# AI 뉴스 리포트 봇 — 죽으면 30초 후 자동 재기동 (별도 상주 프로세스, 로그는 컨테이너 로그에 합류)
+(
+  while true; do
+    python -u /app/news_bot.py || true
+    echo "[news] 뉴스봇 프로세스 종료 감지 — 30초 후 재기동"
+    sleep 30
+  done
+) &
+
 exec "$@"
