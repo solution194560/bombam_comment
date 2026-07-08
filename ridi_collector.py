@@ -142,6 +142,10 @@ WORKS_JS = r"""
     if (seen.has(id)) return;
     let title = (a.innerText || a.textContent || '').trim();
     if (!title || title.length < 2) return;
+    // ⚠️ 나쁜 제목(버튼/접근성 텍스트)은 book_id를 소비하지 않고 스킵 → 같은 책의
+    //    진짜 제목 앵커가 뒤에서 잡히도록. Python _good_title()의 bad 튜플과 동일 기준(둘 다 수정할 것).
+    const BAD = ['상세페이지 바로가기', '바로가기', '구독불가', '19세'];
+    if (BAD.some(b => title.includes(b))) return;
     seen.add(id);
     out.push({
       title,
@@ -231,6 +235,7 @@ def _good_title(t):
     if not t:
         return False
     t = t.strip()
+    # ⚠️ WORKS_JS의 BAD 배열과 동일 기준(한쪽만 고치지 말 것).
     bad = ("상세페이지 바로가기", "바로가기", "구독불가", "19세")
     return len(t) >= 2 and not any(b in t for b in bad)
 
@@ -383,9 +388,11 @@ def _load_or_collect_works(page, tag=""):
     """작품목록 로드. 파일이 없거나 '0개'면 작가 페이지에서 다시 수집한다.
        (예전에 Cloudflare로 빈 목록이 저장돼 0개로 굳는 문제 방지)"""
     works = []
+    from_cache = False   # WORKS_JSON(캐시)에서 로드했는지 — seed는 이미지 소유라 덮어쓰지 않음
     if os.path.exists(WORKS_JSON):
         try:
             works = json.load(open(WORKS_JSON, encoding="utf-8"))
+            from_cache = bool(works)
         except Exception:
             works = []
     # 결과폴더에 없으면, 이미지에 동봉된 기본 목록(스크립트 폴더)도 시도
@@ -397,8 +404,19 @@ def _load_or_collect_works(page, tag=""):
             except Exception:
                 works = []
     if works:
-        print(f"[{tag}] 기존 작품목록 {len(works)}개 사용")
-        return works
+        # 로드한 캐시/시드에 오염(상세페이지 바로가기 등)이 섞여 있으면 정화
+        clean = [w for w in works if _good_title(w.get("title"))]
+        removed = len(works) - len(clean)
+        if len(clean) >= 1 and len(clean) >= len(works) * 0.5:
+            if removed > 0:
+                print(f"[{tag}] 작품목록 {len(clean)}개 사용(오염 {removed}개 정화)")
+                if from_cache:   # seed는 덮어쓰지 않고 WORKS_JSON만 재저장 → NAS 캐시 자가 치유
+                    json.dump(clean, open(WORKS_JSON, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
+            else:
+                print(f"[{tag}] 기존 작품목록 {len(clean)}개 사용")
+            return clean
+        # 정상이 절반 미만이면 캐시를 버리고 재수집 경로로
+        print(f"[{tag}] 캐시 오염 과다(정상 {len(clean)}/{len(works)}) → 재수집")
     # 그래도 없으면 작가 페이지에서 수집
     print(f"[{tag}] 작품목록 없음/0개 → 작가 페이지에서 새로 수집")
     works = collect_work_list(page)
@@ -438,6 +456,8 @@ def collect_work_list(page):
         except Exception:
             pass
         break
+    # 2차 방어: DOM 변화로 새 형태의 쓰레기 텍스트가 들어와도 저장 전에 걸러낸다
+    all_works = [w for w in all_works if _good_title(w.get("title"))]
     return all_works
 
 
