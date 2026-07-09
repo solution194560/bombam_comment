@@ -27,6 +27,8 @@ ENV HEADLESS=0
 ENV DISPLAY=:99
 # 로그인 쿠키 프로필 (로컬에서 만든 .browser_data_dir 를 이 경로로 복사/마운트)
 ENV BROWSER_PROFILE=/app/.browser_data_dir
+# Grok 전용 브라우저 프로필 (리디와 분리 — 세션 오염·Singleton 락 충돌 방지)
+ENV GROK_PROFILE=/app/.grok_profile
 # 결과물(엑셀/JSON)이 떨어질 폴더 → 볼륨 마운트해서 NAS로 빼냄
 ENV OUTPUT_DIR=/app/out
 

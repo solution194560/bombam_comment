@@ -1,5 +1,6 @@
 # Notion API 호출 모듈 — 부모 페이지의 child page 탐색·블록 읽기·핵심 요약 추출 (urllib만 사용)
 import json
+import re
 import time
 import urllib.error
 import urllib.parse
@@ -161,3 +162,157 @@ def extract_summary(blocks: list) -> str:
 def page_url(block_id: str) -> str:
     """child_page 블록 id(UUID)에서 대시를 제거한 32자 hex가 곧 Notion 페이지 주소."""
     return "https://www.notion.so/" + block_id.replace("-", "")
+
+
+# ════════════════════════════════════════════════════════════
+#  페이지 생성·마크다운 변환·정리 (Grok 뉴스 보고서 업로드용 — 기존 함수 무수정 추가)
+# ════════════════════════════════════════════════════════════
+
+def _send_json(url: str, token: str, payload: dict, method: str = "POST") -> dict:
+    """POST/PATCH 로 JSON 전송 후 응답 dict 반환. _get_json 과 동일한 헤더·타임아웃 +
+       429·5xx·529 는 Retry-After 기반 1회 재시도, 그 외는 즉시 예외."""
+    headers = {
+        "Authorization": f"Bearer {token}",
+        "Notion-Version": NOTION_VERSION,
+        "Content-Type": "application/json",
+    }
+    body = json.dumps(payload).encode("utf-8")
+    for attempt in range(2):   # 최초 + 재시도 1회
+        req = urllib.request.Request(url, data=body, headers=headers, method=method)
+        try:
+            with urllib.request.urlopen(req, timeout=TIMEOUT) as resp:
+                return json.loads(resp.read().decode("utf-8"))
+        except urllib.error.HTTPError as e:
+            err_body = ""
+            try:
+                err_body = e.read().decode("utf-8", "replace")
+            except Exception:
+                pass
+            if e.code in _RETRY_CODES and attempt == 0:
+                delay = e.headers.get("Retry-After") if e.headers else None
+                try:
+                    wait = min(float(delay), 30)
+                except (TypeError, ValueError):
+                    wait = 2
+                time.sleep(wait)
+                continue
+            raise RuntimeError(f"HTTP {e.code} — {err_body[:500]}")
+
+
+# 인라인 마크다운 패턴 — 링크 / 굵게 / bare URL
+_MD_LINK = re.compile(r"\[([^\]]+)\]\(([^)\s]+)\)")
+_MD_BOLD = re.compile(r"\*\*(.+?)\*\*")
+_BARE_URL = re.compile(r"https?://[^\s)]+")
+_RICH_LIMIT = 2000   # Notion rich_text 세그먼트 content 최대 길이
+
+
+def _rich_segments(text: str) -> list:
+    """텍스트를 (content, link, bold) 세그먼트 리스트로 분해. 링크·굵게·bare URL 인식."""
+    segments = []
+    pos, n = 0, len(text)
+    while pos < n:
+        m_link = _MD_LINK.search(text, pos)
+        m_bold = _MD_BOLD.search(text, pos)
+        m_url = _BARE_URL.search(text, pos)
+        candidates = [m for m in (m_link, m_bold, m_url) if m]
+        if not candidates:
+            segments.append((text[pos:], None, False))
+            break
+        m = min(candidates, key=lambda x: x.start())
+        if m.start() > pos:
+            segments.append((text[pos:m.start()], None, False))
+        if m is m_link:
+            segments.append((m.group(1), m.group(2), False))
+        elif m is m_bold:
+            segments.append((m.group(1), None, True))
+        else:   # bare URL — 링크 없이 맨몸으로 온 주소를 자동 링크화
+            segments.append((m.group(0), m.group(0), False))
+        pos = m.end()
+    return [s for s in segments if s[0]]
+
+
+def _parse_rich_text(text: str) -> list:
+    """마크다운 인라인을 Notion rich_text 배열로 변환. 각 세그먼트를 2,000자 단위로 분할해
+       링크·굵게 경계가 깨지지 않게 한다."""
+    rich = []
+    for content, link, bold in _rich_segments(text):
+        for i in range(0, len(content), _RICH_LIMIT):
+            piece = content[i:i + _RICH_LIMIT]
+            rt = {"type": "text", "text": {"content": piece}}
+            if link:
+                rt["text"]["link"] = {"url": link}
+            if bold:
+                rt["annotations"] = {"bold": True}
+            rich.append(rt)
+    return rich
+
+
+def _rich_block(btype: str, text: str) -> dict:
+    return {"object": "block", "type": btype, btype: {"rich_text": _parse_rich_text(text)}}
+
+
+def markdown_to_blocks(md_text: str) -> list:
+    """마크다운 → Notion 블록 배열(줄 단위 파싱, 최소 구현). 표·코드블록·이미지·인용·
+       체크박스·중첩·기울임은 미지원(프롬프트에서 표·코드블록 금지)."""
+    blocks = []
+    for raw in md_text.split("\n"):
+        stripped = raw.strip()
+        if not stripped:            # 빈 줄 스킵
+            continue
+        if stripped == "---":
+            blocks.append({"object": "block", "type": "divider", "divider": {}})
+            continue
+        # 헤딩 — `#`~`######` 뒤에 공백. `####` 이하는 heading_3 으로 승격.
+        if stripped.startswith("#"):
+            hashes = len(stripped) - len(stripped.lstrip("#"))
+            rest = stripped[hashes:]
+            if rest.startswith(" "):
+                level = min(hashes, 3)
+                blocks.append(_rich_block(f"heading_{level}", rest.strip()))
+                continue
+        # 불릿 — `- ` 또는 `* `
+        if stripped.startswith("- ") or stripped.startswith("* "):
+            blocks.append(_rich_block("bulleted_list_item", stripped[2:]))
+            continue
+        # 숫자 불릿 — `1. `
+        m = re.match(r"^\d+\.\s+(.*)$", stripped)
+        if m:
+            blocks.append(_rich_block("numbered_list_item", m.group(1)))
+            continue
+        # 그 외 — paragraph
+        blocks.append(_rich_block("paragraph", stripped))
+    return blocks
+
+
+def create_report_page(parent_id: str, token: str, title: str, blocks: list) -> str:
+    """부모 페이지 하위에 제목 페이지를 만들고 블록을 100개씩 채운다. 반환 — 생성된 page_id.
+       append 도중 실패하면 부분 페이지를 archive 로 정리하고 예외를 재발생시킨다."""
+    payload = {
+        "parent": {"page_id": parent_id},
+        "properties": {"title": {"title": [{"type": "text", "text": {"content": title}}]}},
+        "children": blocks[:100],
+    }
+    res = _send_json(f"{NOTION_API}/pages", token, payload, method="POST")
+    page_id = res.get("id")
+    if not page_id:
+        raise RuntimeError("Notion 페이지 생성 응답에 id 가 없음")
+
+    try:
+        rest = blocks[100:]
+        for i in range(0, len(rest), 100):
+            _send_json(f"{NOTION_API}/blocks/{page_id}/children", token,
+                       {"children": rest[i:i + 100]}, method="PATCH")
+    except Exception:
+        # 부분 페이지를 남기지 않는다 — best-effort archive (백업 .md 가 별도로 있음)
+        try:
+            archive_page(page_id, token)
+        except Exception as ae:
+            print(f"[notion] 부분 페이지 정리(archive) 실패 — {ae}", flush=True)
+        raise
+
+    return page_id
+
+
+def archive_page(page_id: str, token: str) -> None:
+    """페이지를 archived 처리(휴지통 이동)."""
+    _send_json(f"{NOTION_API}/pages/{page_id}", token, {"archived": True}, method="PATCH")

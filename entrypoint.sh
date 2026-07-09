@@ -21,4 +21,13 @@ sleep 2
   done
 ) &
 
+# Grok 뉴스 보고서 봇 — 죽으면 30초 후 자동 재기동
+(
+  while true; do
+    python -u /app/news_grok.py || true
+    echo "[grok] Grok봇 프로세스 종료 감지 — 30초 후 재기동"
+    sleep 30
+  done
+) &
+
 exec "$@"
