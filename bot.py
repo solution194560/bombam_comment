@@ -29,6 +29,7 @@ import urllib.request
 from datetime import datetime, timedelta
 
 import ridi_collector as rc
+import browser_lock
 from notify import _load_telegram
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -157,6 +158,10 @@ def run_daily_job(triggered_by=None, is_auto=False):
        크롬은 '실제 창' 모드(HEADLESS=0). 컨테이너에선 entrypoint 의 Xvfb(:99),
        맥에선 실제 화면을 사용 (DISPLAY 는 환경에서 상속)."""
     _job_running.set()
+    # Grok 봇과 브라우저 동시 구동 방지(2GB RAM OOM 차단). 리디는 주 기능이므로 대기 초과 시 강행.
+    got_lock = browser_lock.acquire("ridi", wait_sec=1500)   # Grok 최장 20분 + 여유 = 25분 대기
+    if not got_lock:
+        print("[락] 25분 대기에도 브라우저 락 미해제 — 리디가 주 기능이므로 강행", flush=True)
     cmd = [sys.executable, os.path.join(HERE, "4_매일알림.py")]
     env = dict(os.environ); env.setdefault("HEADLESS", "0")
     # 결과 알림 수신자.
@@ -179,6 +184,8 @@ def run_daily_job(triggered_by=None, is_auto=False):
         if is_auto:
             s = rc.load_settings(); s["last_run_date"] = datetime.now().strftime("%Y-%m-%d")
             rc.save_settings(s)
+        if got_lock:
+            browser_lock.release()
         _job_running.clear()
 
 

@@ -20,6 +20,8 @@ services:
     volumes:
       # 로그인 쿠키: 맥의 ~/.browser_data_dir 내용을 이 폴더에 미리 복사
       - /volume1/docker/bombam/profile:/app/.browser_data_dir
+      # Grok 로그인 세션: 맥에서 로그인한 grok_profile 을 이 폴더에 미리 복사
+      - /volume1/docker/bombam/grok_profile:/app/.grok_profile
       # 결과 엑셀/JSON + settings.json(봇이 수정) 이 NAS 폴더에 보존되도록
       - /volume1/docker/bombam/work:/app/out
     # 봇이 24시간 상주 → 재부팅/오류 시 자동 재시작

@@ -17,3 +17,7 @@ works_to_collect.json
 __pycache__/
 *.pyc
 README_*.md
+.git/
+local_test/
+*.zip
+*.zip.backup
